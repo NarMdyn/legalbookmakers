@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7354054f97.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .slider {
+            width: 50%;
+            margin: 100px auto;
+        }
+
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+
+
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+
+        .slick-active {
+            opacity: .5;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="top-header-nav">
+    <nav class="navbar navbar-default d-flex justify-content-between">
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <img src="images/Группа 8 копия.png" alt="">
+            </div>
+        </div>
+        <div>
+            <ul class="nav navbar-nav d-flex-inline flex-row">
+                <li class="active"><a href="#">Букмекерские конторы</a></li>
+                <li ><a href="#">Обзоры</a></li>
+                <li ><a href="#">Приложения БК</a></li>
+                <li ><a href="#">Бонусы</a></li>
+                <li ><a href="#">Гид по букмекерам</a></li>
+                <li ><a href="#">Новости БК</a></li>
+            </ul>
+        </div>
+        <div class="navLastBlock d-flex flex-row">
+            <form class="form-inline">
+                <img src="icons/search.png">
+                <input class="form-search" type="search" placeholder="Поиск" aria-label="Search">
+            </form>
+            <button class="btn btn-primary" type="submit">Войти</button>
+        </div>
+
+    </nav>
+</div>
+    <main>
+        <div class="home-page">
+            <div class="tableBlock col-xl-7">
+                <div class="refactored">
+                    <div class="vps-h3 mbottom-15">
+                        <p>Лучшие букмекерские конторы</p>
+                    </div>
+                    <div class="bookmeker_table">
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                <div class="bookmeker_table_offer_number">
+                                    <p>1</p>
+                                </div>
+                                <div class="bookmeker_table_offer_logo">
+                                    <a href="#" target="_blank" rel="nofollow">
+                                        <img src="images/logos/winline.png" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="bookmeker_table_offer_mark">
+                                    <img src="icons/star.png" alt="star">
+                                    <p>5/5</p>
+                                </div>
+                                <div class="bookmeker_table_offer_review">
+                                    <img src="icons/chat.png" alt="review_logo">
+                                    <p>186</p>
+                                </div>
+                                <div class="bookmeker_table_offer_bonus">
+                                    <img src="icons/bonus.png" alt="bonus">
+                                    <p>8000₽</p>
+                                </div>
+                            </div>
+                            <div class="bookmeker_table_offer_button">
+                                <a href="#" class="a_flex">
+                                    <div class="bookmeker_table_offer_button_overview">
+                                        <span>
+                                            Обзор
+                                        </span>
+                                    </div>
+                                </a>
+                                <a href="#" target="_blank" class="a_flex">
+                                    <div class="bookmeker_table_offer_button_in_site">
+                                        <span>
+                                            На сайт
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>2</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/1xstavka.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                <span>
+                                                    Обзор
+                                                </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                 <span>
+                                                     На сайт
+                                                 </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>3</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/ligastavok.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="/reyting-bukmekerov/maraphonbet" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="https://www.vseprosport.ru/away?maraphonbet1" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>4</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/leon.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/betcity.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>6</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/olymp.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>7</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/parimatch.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                        <div class="bookmeker_table_offer">
+                            <div class="bookmeker_table_offer_All-item">
+                                            <div class="bookmeker_table_offer_number">
+                                                <p>8</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_logo">
+                                                <a href="#" target="_blank" rel="nofollow">
+                                                    <img src="images/logos/bingoboom.png" alt="" title="">
+                                                </a>
+                                            </div>
+                                            <div class="bookmeker_table_offer_mark">
+                                                <img src="icons/star.png" alt="star">
+                                                <p>5/5</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_review">
+                                                <img src="icons/chat.png" alt="review_logo">
+                                                <p>186</p>
+                                            </div>
+                                            <div class="bookmeker_table_offer_bonus">
+                                                <img src="icons/bonus.png" alt="bonus">
+                                                <p>8000₽</p>
+                                            </div>
+                                        </div>
+                            <div class="bookmeker_table_offer_button">
+                                            <a href="#" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_overview">
+                                                    <span>
+                                                        Обзор
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <a href="#" target="_blank" class="a_flex">
+                                                <div class="bookmeker_table_offer_button_in_site">
+                                                    <span>
+                                                        На сайт
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                        </div>
+                    </div>
+                    <div class="bookmeker_table_watch_all">
+                        <div class="bookmeker_table_watch_all_button">
+                                        <a href="#" class="go_to_link">
+                                            <div class="go_to_text">Все букмекерские конторы</div>
+                                            <img src="icons/arr-right.png" alt="arrow">
+                                        </a>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 right-panel">
+                                <div class="rightPanelNews">
+                                    <div class="newsHeader">
+                                        <p>Новости</p>
+                                    </div>
+                                    <div class="newsImage">
+                                        <a href="#">
+                                            <img src="images/newsImage.jpg" alt="">
+                                            <div class="newsImageText">
+                                                <div class="imageText">
+                                                    <p>Сенегал – Алжир: букмекеры  назвали фаворита матча</p>
+                                                </div>
+                                                <div class="imageTextDataView">
+                                                    <div class="imageTextData">
+                                                        <p>12 июня 2019</p>
+                                                    </div>
+                                                    <div class="iconView">
+                                                        <p><img src="icons/icon-eye.png" alt="">172</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="#">
+                                        <div class="panelRow">
+                                            <div class="panelRow_All-item">
+                                                <div class="titleData">
+                                                    <div class="newsTitle">
+                                                        <p>11-миллионный экспресс не доехал  из-за одного события</p>
+                                                    </div>
+                                                    <div class="newsData">
+                                                        <p>12 июня 2019</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icon-arr-right">
+                                                    <img src="icons/arr-right-muted.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="panelRow">
+                                            <div class="panelRow_All-item">
+                                                <div class="titleData">
+                                                    <div class="newsTitle">
+                                                        <p>Parimatch компенсирует болельщикам  стоимость абонементов на сезон-2019/20</p>
+                                                    </div>
+                                                    <div class="newsData">
+                                                        <p>10 июня 2019</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icon-arr-right">
+                                                    <img src="icons/arr-right-muted.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="panelRow">
+                                            <div class="panelRow_All-item">
+                                                <div class="titleData">
+                                                    <div class="newsTitle">
+                                                        <p>Топ-5 событий для ставок с 15 по 21 июня</p>
+                                                    </div>
+                                                    <div class="newsData">
+                                                        <p>10 июня 2019</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icon-arr-right">
+                                                    <img src="icons/arr-right-muted.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="panelRow">
+                                            <div class="panelRow_All-item">
+                                                <div class="titleData">
+                                                    <div class="newsTitle">
+                                                        <p>У клиента БК доехал экспресс с тремя  ставками на точный счет в лайве</p>
+                                                    </div>
+                                                    <div class="newsData">
+                                                        <p>9 июня 2019</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icon-arr-right">
+                                                    <img src="icons/arr-right-muted.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="panelRow">
+                                            <div class="panelRow_All-item lastRow">
+                                                <div class="titleData">
+                                                    <div class="newsTitle">
+                                                        <p>В Испании появится комиссия по борьбе  с договорными матчами</p>
+                                                    </div>
+                                                    <div class="newsData">
+                                                        <p>8 июня 2019</p>
+                                                    </div>
+                                                </div>
+                                                <div class="icon-arr-right">
+                                                    <img src="icons/arr-right-muted.png">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="panelRow allNews">
+                                        <a href="#">Все новости</a>
+                                    </div>
+                                </div>
+                        </div>
+
+            <section class="variable slider">
+                    <div class="reviewCard">
+                        <div class="writer_logo">
+                            <div class="revWriterAva">
+                                <img src="images/revWriters/alex.png" alt="">
+                            </div>
+                            <div class="revWriter_Data">
+                                <div class="revWriter">
+                                    <p>Александр</p>
+                                </div>
+                                <div class="revData">
+                                    <p>10 июня 2019</p>
+                                </div>
+                            </div>
+
+                            <div class="revLogo">
+                                <img src="images/logos/1xstavka.png" alt="">
+                            </div>
+                        </div>
+                        <div class="revReiting">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star.png">
+                            <img src="icons/star-muted.png">
+                        </div>
+                        <div class="revText">
+                            Ставлю в 1Хставка уже 2 года, с выводом все хорошо, вывожу на киви либо на карту сбера, еще и Линия у 1Хставка самая лучшая, есть абсолютно все что надо.
+                        </div>
+                        <div class="revMore">
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="revWriter">
+
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="revWriter">
+
+                        </div>
+                    </div>
+                    <div class="reviewCard">
+                        <div class="revWriter">
+
+                        </div>
+                    </div>
+                </section>
+        </div>
+    </main>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="JavaScript/script.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+        $(".variable").slick({
+            dots: false,
+            infinite: true,
+            variableWidth: true
+        });
+    });
+</script>
+</body>
+</html>
