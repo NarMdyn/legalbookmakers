@@ -1,3 +1,4 @@
+/*START FONTS*/
 @font-face {
     font-family: Gilroy-Medium;
     src: url("../fonts/Gilroy-Medium.eot") format("embedded-opentype"), url("../fonts/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy-Medium.woff") format("woff");
@@ -19,721 +20,841 @@
     font-weight: normal;
 }
 
+/*END FONTS*/
 
+/*START COMMON*/
 
-
-
-body {
-    background: #f5f5f5 ;
-    padding: 0;
-    width: 1920px;
-    font-family: Gilroy-Medium;
-    letter-spacing: 0.14px;
-}
-
-a, a:hover {
-    text-decoration: none;
-    color: #000000;
-}
-
-.navbar {
-    background-color: white;
-    color: #000;
-    height: 70px;
-    width: 100%;
-    font-weight: 600;
-    font-size: 13px;
-    padding: 0 16px;
-
-}
-
-.navbar-nav {
-    padding-right: 410px ;
-}
-
-.navbar-brand {
-    margin-left: 14px;
-}
-
-.nav a {
-    color: #000;
-    text-decoration: none;
-    display: inline-block;
-    margin-right: 22.5px;
-    margin-left: 22.5px;
-    padding-top: 25px;
-    padding-bottom: 22px;
-}
-
-.nav a:hover {
-    color: #5fa959;
-    text-decoration: none;
-    border-bottom: 2px solid #5fa959;
-}
-
-.nav a:active, .nav a:focus, .nav a:hover {
-    color: #5fa959;
-    text-decoration: none;
-    border-bottom: 2px solid #5fa959;
-}
-
-.form-inline img {
-    margin-right: 5px;
-}
-
-.form-search {
-    border:none! important;
-    outline:none! important;
-    margin-right: 5px;
-    width: 122px;
-}
-
-::placeholder {
-    color: #a8a9a8;
-}
-
-.btn-primary {
-    background-color: #fff;
-    border-width: 2px;
-    border-color: #c1bfbd;
-    border-radius: 20px ;
-    color: #000;
-    width: 100px;
-    font-weight: 700;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #5fa959 !important;
-    border-color: #5fa959 !important;
-    color: #ffffff;
-}
-
-.navLastBlock {
-    margin-right: 11px;
-}
-
-.home-page {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-
-
-.refactored {
-    position: absolute;
-    right: 0;
-    padding-right: 15px;
-}
-
-.refactored .vps-h3 {
-    font-family: Gilroy-SemiBold;
-    font-size: 24px;
-    font-weight: 900;
-    padding-top: 51px;
-    padding-bottom: 22px;
-}
-
-.refactored .vps-h3 p {
-    margin-bottom: 0;
-}
-
-.bookmeker_table {
-    display: flex;
-    flex-direction: column;
-    width: 951px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 44px;
-    background-color: #f6f6f6;
-    border: 1px solid #eee;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_number {
-    display: flex;
-    width: 55px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_number p {
-    color: #b7b7b7;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_name {
-    display: flex;
-    width: 150px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_name p {
-    color: #b7b7b7;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_bonus {
-    display: flex;
-    width: 100px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_bonus p {
-    color: #b7b7b7;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_mark {
-    display: flex;
-    width: 125px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_mark p {
-    color: #b7b7b7;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_review {
-    display: flex;
-    width: 110px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_position .bookmeker_table_position_all .bookmeker_table_review p {
-    color: #b7b7b7;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_offer {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    width: 951px;
-    height: 94.5px;
-    border-radius: 5px;
-    margin: 7.5px 0;
-}
-
-.bookmeker_table:first-child {
-    margin-top: 0 !important;
-}
-
-
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    height: 94.5px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_number {
-    display: flex;
-    width: 25px;
-    height: 75px;
-    margin-left: 10px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_number p {
-    color: #c3bcbc;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_logo {
-    display: flex;
-    width: 150px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_logo a img {
-    width: 120px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_bonus {
-    display: flex;
-    width: 100px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_bonus p {
-    color: black;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 17px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_bonus img {
-    width: 17px;
-    height: 16px;
-    margin: 20px 10px 0 0;
-
-}
-
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_mark {
-    display: flex;
-    justify-content: center;
-    width: 125px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_mark img {
-    margin: 20px 10px 0 0;
-    width: 17px;
-    height: 17px;
-
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_mark p {
-    color: black;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 25px;
-    margin-top: 17px;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_review {
-    display: flex;
-    width: 110px;
-    height: auto;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_review img {
-    width: 17px;
-    height: 16px;
-    margin-top: 20px;
-    margin-right: 10px;
-
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_All-item .bookmeker_table_offer_review p {
-    color: black;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 18px;
-
-}
-
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 94.5px;
-    width: 45.5%;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_overview {
-    display: flex;
-    justify-content: center;
-    height: 33px;
-    background: white;
-    position: relative;
-    border: 2px solid #c1bfbd;
-    z-index: 5;
-    border-radius: 20px ;
-    color: #000;
-    width: 97px;
-    font-weight: 700;
-
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_overview span {
-    display: flex;
-    align-items: center;
-    color: #000;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-
-}
-
-/*.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_overview:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 0;*/
-    /*background: rgba(255, 255, 255, 0.3);*/
-    /*transition: all 0.5s ease;*/
-/*}*/
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_overview:hover{
-    background-color: #5fa959 !important;
-    border-color: #5fa959 !important;
-    color: #ffffff;
-}
-
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_in_site {
-    display: flex;
-    justify-content: center;
-    height: 33px;
-    background-color: #5fa959;
-    cursor: pointer;
-    position: relative;
-    content: '';
-    border: 2px solid #5fa959;
-    border-radius: 20px ;
-    width: 97px;
-    font-weight: 700;
-
-}
-.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_in_site span {
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-}
-/*.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_in_site:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 0;*/
-    /*background: rgba(255, 255, 255, 0.3);*/
-    /*transition: all 0.5s ease;*/
-/*}*/
-/*.bookmeker_table .bookmeker_table_offer .bookmeker_table_offer_button .a_flex .bookmeker_table_offer_button_in_site:hover:before {*/
-    /*background-color: whitesmoke;*/
-    /*opacity: 0.5;*/
-    /*height: 45px;*/
-/*}*/
-.bookmeker_table .bookmeker_table_watch_all {
-    display: flex;
-    width: 100%;
-    height: 60px;
-    border-bottom: 1px solid #eee;
-}
-.bookmeker_table_watch_all .bookmeker_table_watch_all_button {
-    display: flex;
-    justify-content: center;
-    width: 951px;
-    height: 60px;
-}
-.bookmeker_table_watch_all .bookmeker_table_watch_all_button .go_to_link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.bookmeker_table_watch_all .bookmeker_table_watch_all_button .go_to_text {
-    font-size: 14px;
-    line-height: 40px;
-    letter-spacing: 0.14px;
-    margin: 0 15px 0 0;
-}
-.bookmeker_table_watch_all .bookmeker_table_watch_all_button a img {
-    height: 15px;
-}
-
-.col-xl-3, .col-xl-7 {
-    float: left;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.col-xl-7 {
-    width: initial;
-}
-
-.tableBlock {
-    width: 951px !important;
-}
-
-
-
-.newsHeader {
-    font-family: Gilroy-SemiBold;
-    font-size: 24px;
-    font-weight: 900;
-    padding-top: 51px;
-    padding-bottom: 22px;
-}
-
-.newsHeader p {
-    margin-bottom: 0;
-}
-
-.newsImage {
-    position: relative;
-    margin-top: 7.5px;
-}
-
-.newsImageText {
-    color: #ffffff;
-    position: absolute;
-    top: 200px;
-    margin-left: 28px;
-    width: 326px;
-    height: 75px;
-}
-
-.newsImageText .imageText p {
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: -9px;
-}
-
-.imageTextDataView {
-    display: flex;
-    color: #91918f;
-    font-size: 13px;
-}
-
-.imageTextDataView .iconView {
-    margin-left: 25px;
-}
-
-.panelRow {
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    height: 98px;
-}
-
-.panelRow_All-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 404px;
-    height: 98px;
-    border-bottom: 1px solid #e4e4e4;
-}
-
-.lastRow {
-    border-bottom: none !important;
-}
-
-
-.titleData {
-    height: 54px;
-    width: 343px;
-}
-
-.newsTitle p{
-    padding: 0;
-    margin: 0;
-}
-
-.newsData p{
-    font-size: 10px;
-    color: #c3bcbc;
-    padding: 0;
-    margin: 0;
-}
-
-.panelRow_All-item .icon-arr-right {
-    padding: 0;
-    margin: 0;
-}
-
-.allNews {
-    height: 71px;
-    border-top: 1px solid #e4e4e4 ;
-}
-
-.allNews a {
-    color: #5fa959;
-}
-
-
-@media (min-width: 1200px) {
-
-    .container {
-        max-width: 1920px;
-    }
-
-    .col-xl-3 {
-        -ms-flex: 0 0 25%;
-        flex: 0 0 25%;
-        max-width: 26%;
-    }
-
-    .col-xl-7 {
-        -ms-flex: 0 0 58.333333%;
-        flex: 0 0 58.333333%;
-        max-width: 981px;
-    }
-}
-
-/* Slider */
-.slick-slider
-{
-    position: relative;
-
-    display: block;
-    box-sizing: border-box;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-
-    display: block;
-    overflow: hidden;
-
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-
-    content: '';
-}
-.slick-track:after
-{
+.clearfix {
     clear: both;
 }
-.slick-loading .slick-track
-{
-    visibility: hidden;
+
+body {
+    font-family: Gilroy-Medium;
+    background-color: #f5f5f5;
 }
 
-.slick-slide
-{
-    display: none;
-    float: left;
-
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-
-    height: auto;
-
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
-/*Slider end*/
+h2 {
+    font-family: Gilroy-SemiBold;
+}
 
-.reviewCard {
+a:hover, a:focus, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover, .btn-default:focus {
+    background-image: unset;
+    background-color: unset;
+    box-shadow: unset;
+    border-color: #ccc;
+}
+
+.button {
+    background-image: unset;
+    border-radius: 50px;
+    box-shadow: unset;
+    border-width: 2px;
+    text-shadow: none;
+}
+
+.button:hover {
+    background-color: unset;
+    border-color: #ccc;
+}
+
+.green-btn {
+    background-color: #5fa959;
+    color: white;
+    border-color: #5fa959;
+}
+
+.green-btn:hover, .green-btn:focus, .green-btn:active {
+    background-color: #5fa959;
+    color: white;
+    border-color: #5fa959;
+}
+
+/*END COMMON*/
+
+/*START NAVIGATION*/
+
+.navbar.navbar-default {
+    box-shadow: unset;
     background-color: white;
-    height: 332px;
-    width: 463px !important;
+    background-image: none;
+    border: none;
 }
 
-.reviewCard .writer_logo {
+.navbar.navbar-default .navbar-header .navbar-toggle {
+    border: none;
+    margin: 18px;
+}
+
+.navbar.navbar-default .navbar-header .navbar-toggle span {
+    background-color: #000000;
+}
+
+.navbar.navbar-default .navbar-header .navbar-brand {
+    height: auto;
+    margin: 0;
+}
+
+.navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav {
+    margin: 0 20px;
+}
+
+.navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li {
+    padding: 0 20px;
+}
+
+.navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a {
+    color: #000;
+    border-bottom: 2px solid white;
+    padding: 21px 0px;
+}
+
+.navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a:hover {
+    color: #64BE5B;
+    border-color: #64BE5B;
+}
+
+.navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav .active a {
+    background-color: unset;
+    background-image: unset;
+    box-shadow: unset;
+    border-color: #64BE5B;
+    color: #64BE5B;
+}
+
+.navbar .navbar-right {
+    margin: 14px 0px;
+}
+
+.navbar .navbar-right .input-group-addon {
+    background-color: unset;
+    border: none;
+}
+
+.navbar .navbar-right .form-control {
+    border: none;
+    box-shadow: unset;
+}
+
+/*END NAVIGATION*/
+
+/*START MAIN-BOX*/
+
+.main-box .all-bet-link {
+    text-align: center;
+    padding: 10px 0 25px 0;
+}
+
+.main-box .bookmaker-box {
+    background-color: #fff;
+    padding: 14px;
+    padding-top: 8px;
+    margin: 15px 0px;
+    border-radius: 3px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom: 12px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content img, .main-box .bookmaker-box .bookmaker-box-content p {
+    display: inline-block;
+    margin: 0;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content img {
+    position: relative;
+    top: -2px;
+    padding: 0 10px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
+    margin-left: 12px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-header .bookmeker_table_offer_number p {
+    margin: 0;
+    color: #cccccc;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+    background-color: #f2eff0;
+    border-radius: 50px;
+    padding: 8px 10px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus img {
+    padding: 0 6px 0 4px;
+}
+
+.bet-guide {
+    background-color: #fff;
+    padding: 15px 30px 50px 30px;
+}
+
+.bet-guide-content ul {
+    padding: 0;
+    margin-left: 16px;
+}
+
+.bet-guide-content .bet-guide-box {
+    background-color: whitesmoke;
+    margin: 18px 0;
+}
+
+.bet-guide-content .bet-guide-box .row {
+    display: flex;
+    align-items: center;
+}
+
+.bet-guide-content .bet-guide-body-box {
+    padding: 0;
+    position: relative;
+    left: 0;
+}
+
+.bet-guide-content .bet-guide-icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*END MAIN-BOX*/
+
+/*START SIDEBAR*/
+
+.sidebar-right hr {
+    margin: 10px;
+}
+
+.sidebar-right img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-right .articles {
+    position: relative;
+    top: 4px;
+}
+
+.sidebar-right .articles .article {
+    padding: 0;
+}
+
+.sidebar-right .articles .article .padding {
+    padding: 10px 10px 7px 10px;
+}
+
+.sidebar-right .articles .all-articles-link {
+    text-align: center;
+}
+
+.sidebar-right .articles .row hr {
+    margin: 7px 0;
+}
+
+.sidebar-right .articles .all-articles-link a {
+    color: #5fa959;
+}
+
+.sidebar-right .articles .article .padding .row {
     display: flex;
 }
 
-.reviewCard .writer_logo .revLogo img {
-    width: 117px;
-    height: 17px;
-    margin-top: 40px;
-}
-
-.reviewCard .writer_logo .revWriterAva img {
-    margin-top: 20px;
-    margin-left: 27px;
-    width: 57px;
-    height: 57px;
-}
-
-.reviewCard .writer_logo .revWriter_Data {
-    display: flex;
-    flex-direction: column;
-    margin-top: 34px;
-    margin-left: 27px;
-    padding-right: 36px;
-    border-right: 1px solid #d8d8d8;
-}
-
-.reviewCard .writer_logo .revWriter_Data .revWriter p {
-    font-size: 12px;
-    margin-bottom: 1px !important;
-}
-
-.reviewCard .writer_logo .revWriter_Data .revData {
-    font-size: 9px;
-    color: #c5bcbe;
-}
-
-
-
-.reviewCard .revReiting {
+.sidebar-right .articles .article .padding .row .article-icon-block {
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 
-.reviewCard .revReiting img {
+.sidebar-right .articles {
+    background-color: #fff;
+}
+
+.sidebar-right .article {
+    position: relative;
+}
+
+.date {
+    color: #a7a5a3;
+    font-size: 13px;
+}
+
+.article .padding h5 {
+    font-size: 15px;
+}
+
+.sidebar-right .article .article-arrow-right img {
     width: 14px;
     height: 12px;
 }
+
+.sidebar-right .article .article-content {
+    position: absolute;
+    bottom: 0;
+    padding: 24px;
+}
+
+.sidebar-right .article .article-content .article-title-diff a {
+    color: white;
+}
+
+.sidebar-right .article-addon {
+    display: flex;
+    color: #93918f;
+}
+
+.sidebar-right .article-addon .views {
+    padding-left: 25px;
+}
+
+.sidebar-right .article-addon .views img {
+    width: 17px;
+    height: 10px;
+}
+
+.sidebar-right .all-articles-link {
+    margin: 20px 0;
+}
+
+/*END SIDEBAR*/
+
+/*START FOOTER*/
+
+footer .container-fluid {
+    margin-top: 60px;
+    background-color: #fff;
+}
+
+.footer-box {
+    padding: 40px;
+}
+
+.footer-box .footer-box-title {
+    color: #64BE5B;
+}
+
+.footer-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box div {
+    padding: 14px 0;
+}
+
+.footer-box .social-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-box .copyright {
+    color: #A8A9A8;
+}
+
+/*END FOOTER*/
+
+/*START MEDIA*/
+
+@media screen and (min-width: 320px) and (max-width: 361px) {
+
+    .main-box .bookmaker-box .bookmaker-box-content {
+        padding-bottom: 20px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo img {
+        width: 100%;
+        padding: 0 7px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        width: 47%;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
+        font-size: 11px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
+        margin-left: 7px;
+    }
+
+    .bet-guide-content .bet-guide-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .bet-guide-content .bet-guide-body-box {
+        left: 0px;
+    }
+
+    .bet-guide-content .bet-guide-box .bet-guide-body-box .bet-guide-title h4 {
+        font-size: 14px;
+    }
+
+    .bet-guide-content .bet-guide-box .bet-guide-body-box .bet-guide-content ul li {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 356px) and (max-width: 430px) {
+    .bet-guide-content .bet-guide-body-box {
+        left: 0;
+    }
+
+    .bet-guide-content .bet-guide-box .bet-guide-body-box .bet-guide-title h4 {
+        font-size: 14px;
+    }
+
+    .bet-guide-content .bet-guide-box .bet-guide-body-box .bet-guide-content ul li {
+        font-size: 12px;
+    }
+
+    .bet-guide-content .bet-guide-icon {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 359px) and (max-width: 381px) {
+
+    .main-box .bookmaker-box .bookmaker-box-content {
+        padding-bottom: 20px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo img {
+        width: 100%;
+        padding: 0 7px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        width: 37%;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        width: 28%;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
+        font-size: 11px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
+        margin-left: 7px;
+    }
+
+}
+
+@media screen and (min-width: 586px) and (max-width: 767px) {
+    .bet-guide-content .bet-guide-body-box {
+        left: -40px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 10px;
+    }
+
+    .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a {
+        padding: 16px 0;
+    }
+
+    .navbar .navbar-right {
+        margin: 9px 0px;
+    }
+
+    .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li {
+        padding: 0 10px;
+    }
+
+    .navbar-form .form-group {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .navbar-form .form-group {
+        width: 64%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main-box .bookmaker-box .bookmaker-box-content {
+        padding: 0;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-box .bookmakers .main-box-title h2 {
+        font-size: 25px;
+    }
+
+    .main-box .all-bet-link {
+        border: 2px solid #5fa959;
+        border-radius: 50px;
+        padding: 18px;
+        margin: 0 auto;
+        font-size: 17px;
+    }
+
+    .navbar-right .button {
+        position: absolute;
+        top: 17px;
+        right: 20px;
+    }
+
+    .navbar .navbar-right {
+        width: 100% !important;
+        border: 0;
+        margin: 0;
+    }
+
+    .navbar .navbar-right .form-group {
+        width: 100% !important;
+        display: none;
+    }
+
+    .navbar .navbar-right .mobile-search-icon-group {
+        padding: 10px;
+        position: absolute;
+        top: 10px;
+        right: 94px;
+    }
+
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 15px !important;
+    }
+
+    .slick-list {
+        overflow: hidden !important;
+    }
+
+    .slider .item {
+        border-right: 0 !important;
+    }
+
+    .sidebar-right {
+        margin-bottom: 30px;
+    }
+
+    .sidebar-right .articles .article {
+        margin-bottom: 1px;
+        padding: 0;
+    }
+
+    .sidebar-right .articles .article hr {
+        margin-bottom: 0;
+    }
+
+    .sidebar-right .articles .article .padding {
+        padding: 3px 10px 13px 10px;
+    }
+
+    .sidebar-right .articles .article .padding h5 {
+        font-size: 17px;
+    }
+
+    .sidebar-right .articles .all-articles-link {
+        float: right;
+        background-color: white;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .sidebar-right .articles {
+        background-color: transparent;
+    }
+
+    .sidebar-right .articles .article:first-child {
+        background-color: transparent;
+    }
+
+    .sidebar-right .articles .article {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 468px) and (max-width: 767px) {
+    .footer-box div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-box .social-icon {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .footer-logo, .contact-us-btn, .copyright, .copyright-flex p {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .footer-box .social-icon {
+        width: 120%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .bet-guide-content .col-sm-6 {
+        width: 46%;
+    }
+
+    .footer-box .social-icon {
+        width: 80%;
+    }
+
+    .navbar .navbar-right {
+        width: 60% !important;
+    }
+
+    .navbar-right .button {
+        position: absolute;
+        top: 14px;
+        right: 20px;
+    }
+
+    .bet-guide-content .bet-guide-box {
+        margin: 2%;
+    }
+
+    .bet-guide-content row .col-sm-6 {
+        width: 46%;
+    }
+
+    .navbar .navbar-right {
+        display: inline-block;
+        width: 30% !important;
+        position: absolute;
+        top: 8px;
+        right: 0px;
+    }
+
+    .navbar-right .button {
+        position: absolute;
+        top: 0px;
+    }
+
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 23px 0 !important;
+    }
+
+    .sidebar-right {
+        margin-bottom: 30px;
+    }
+
+    .sidebar-right img {
+        padding-right: 17px;
+    }
+
+    .sidebar-right .articles .article {
+        margin-bottom: 2px;
+        padding-left: 0;
+    }
+
+    .sidebar-right .articles .article hr {
+        margin-bottom: 0;
+    }
+
+    .sidebar-right .articles .article .padding {
+        padding: 3px 10px 13px 10px;
+    }
+
+    .sidebar-right .articles .article .padding h5 {
+        font-size: 14px;
+    }
+
+    .sidebar-right .articles .all-articles-link {
+        float: right;
+        background-color: white;
+        margin: 0;
+        padding: 16px;
+    }
+
+    .sidebar-right .articles {
+        background-color: transparent;
+    }
+
+    .sidebar-right .articles .article:first-child {
+        background-color: transparent;
+    }
+
+    .sidebar-right .articles .article {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-box .bookmakers .main-box-title h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1295px) {
+    .navbar .navbar-right {
+        width: 19%;
+        padding: 0;
+    }
+
+    .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-right .button {
+        font-size: 12px;
+    }
+
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1148px) and (min-width: 768px) {
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 16px 0;
+    }
+
+    .navbar-brand > img {
+        width: 156px;
+    }
+
+    .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+/*END MEDIA*/
+
+/*START SLIDER*/
+
+.slider {
+    margin: 20px 0;
+}
+
+.slider .item {
+    background-color: #fff;
+    border-right: 20px solid #f5f5f5;
+}
+
+.slider .item .slider-item-header, .slider .item .slider-item-content {
+    padding: 16px 16px 0 16px;
+}
+
+.slider .item .slider-item-header .author-info img {
+    width: 55px;
+    height: 55px;
+}
+
+.slider .item .slider-item-header .author-info {
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid #cccccc;
+}
+
+.slider .item .slider-item-header .slider-bookmaker-logo {
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider .item .slider-item-content .comment p {
+    padding: 20px 6px;
+}
+
+.slider .item .slider-footer hr {
+    margin: 0;
+}
+
+.slider .item .slider-footer .show-comment-link {
+    text-align: center;
+    padding: 20px;
+}
+
+.slider .item .slider-footer .show-comment-link a{
+    color: #5fa959;
+}
+
+
+/*END SLIDER*/
