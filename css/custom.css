@@ -1,0 +1,143 @@
+h2 {
+    margin-bottom: 20px;
+}
+
+.main-box .bookmaker-box-bonus {
+    margin: 0 0 1px 0;
+}
+
+.main-box .bookmaker-box-title-bonus {
+    margin: 0 0 1px 0;
+    padding: 0;
+}
+
+.main-box .bookmaker-box-title-bonus .bookmaker-box-content {
+    width: 71%;
+    margin: 0;
+}
+
+.main-box .bookmaker-box-top-bonus {
+    margin: 0;
+    padding: 24px;
+}
+
+.bookmaker_table_offer_logo_title {
+    position: relative;
+    top: -11px;
+}
+
+.bookmaker_table_offer_mark_title {
+    position: relative;
+    top: -11px;
+    left: 46px;
+}
+
+.bookmaker_table_offer_review_title {
+    position: relative;
+    top: -11px;
+}
+
+.bookmaker_table_offer_bonus_title {
+    position: relative;
+    top: -11px;
+    left: -50px;
+
+}
+
+
+.bookmaker-content .info {
+    display: flex;
+    margin: 10px 0;
+}
+
+.bookmaker-content .info .info-icon {
+    padding: 10px;
+}
+
+.best-bonus-box .best-bonus-box-content {
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.best-bonus-box .best-bonus-box-content .best-bonus-box-content-logo a img{
+    width: 60%;
+}
+
+.best-bonus-box .best-bonus-box-content .bonus-more {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.best-bonus-box .best-bonus-box-content .bonus-more .border {
+    height: 26px;
+    width: 1px;
+    background-color: whitesmoke;
+}
+
+.best-bonus-box .best-bonus-box-content .bonus-more .best-bonus-box-content-logo {
+    padding: 15px;
+}
+
+.best-bonus-box .best-bonus-box-content .get-bonus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text{
+    padding: 16px;
+    color: #ffffff;
+}
+
+.best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text p {
+    margin: 0;
+}
+
+
+
+
+/*START MEDIA*/
+
+@media screen and (max-width: 1200px) {
+    .bookmaker_table_offer_logo_title {
+        left: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-box .bookmaker-box-top-bonus {
+        margin: 0;
+        padding: 24px 0;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px)  {
+
+
+    .best-bonus-box .best-bonus-box-content:nth-child(2) {
+        padding: 0 5px 0 0;
+    }
+
+    .best-bonus-box .best-bonus-box-content:nth-child(3) {
+        padding: 0 0 0 5px;
+    }
+
+    .best-bonus-box .best-bonus-box-content:nth-child(4) {
+        padding: 0 5px 0 0;
+    }
+
+    .best-bonus-box .best-bonus-box-content:nth-child(5) {
+        padding: 0 0 0 5px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    footer .container-fluid {
+        margin: 0;
+    }
+}
+/*END MEDIA*/
