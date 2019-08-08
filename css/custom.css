@@ -100,6 +100,80 @@ h2 {
 
 
 
+.main-box .card {
+    padding: 10px;
+}
+
+.main-box .bg {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.main-box .cards .cards-title {
+    margin: 0 10px;
+}
+
+.main-box .card .card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.main-box .card .card-header .title {
+    font-size: 20px;
+}
+
+.main-box .card .card-content ul li {
+    margin-bottom: 14px;
+}
+
+.main-box .card .card-content ul li a {
+    text-decoration: underline;
+    color: #5FA959;
+}
+
+.main-box .card .card-footer .more-link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main-box .card .card-footer .more-link a {
+    padding: 20px;
+}
+
+.main-box .card .card-footer .more-link .count {
+    border-radius: 50px;
+    background-color: whitesmoke;
+    padding: 5px;
+    color: #5FA959;
+}
+
+
+.sidebar-right .articles {
+    background-color: white;
+}
+
+.sidebar-right .articles .article:first-child {
+    background-color: white;
+}
+
+.main-box .article-single {
+    background-color: #fff;
+}
+
+.main-box .article-single .content img {
+    width: 100%;
+    height: auto;
+}
+
+.main-box .article-single .text {
+    padding: 20px;
+}
+
+.main-box .article-single .date {
+    padding: 0 20px 0 20px;
+}
 /*START MEDIA*/
 
 @media screen and (max-width: 1200px) {

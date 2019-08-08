@@ -301,11 +301,6 @@ a:hover, a:focus, a:active {
     font-size: 15px;
 }
 
-.sidebar-right .article .article-arrow-right img {
-    width: 14px;
-    height: 12px;
-}
-
 .sidebar-right .article .article-content {
     position: absolute;
     bottom: 0;
@@ -339,7 +334,7 @@ a:hover, a:focus, a:active {
 /*START FOOTER*/
 
 footer .container-fluid {
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: #fff;
 }
 
