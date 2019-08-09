@@ -3,9 +3,12 @@ h2 {
 }
 
 .main-box .bookmaker-box-bonus {
-    margin: 0 0 1px 0;
+    margin: 0 0 1px 0 ;
 }
 
+.bookmaker-box-mobile {
+    margin-bottom: 1px !important;
+}
 .main-box .bookmaker-box-title-bonus {
     margin: 0 0 1px 0;
     padding: 0;
@@ -41,9 +44,18 @@ h2 {
     position: relative;
     top: -11px;
     left: -50px;
-
+}
+.bookmaker_table_offer_platforms_icon_title {
+    position: relative;
+    top: -11px;
+    left: -60px;
 }
 
+.bookmaker_table_offer_bonus_title_moile {
+    position: relative;
+    top: -11px;
+    left: -5px;
+}
 
 .bookmaker-content .info {
     display: flex;
@@ -60,7 +72,7 @@ h2 {
     padding: 0;
 }
 
-.best-bonus-box .best-bonus-box-content .best-bonus-box-content-logo a img{
+.best-bonus-box .best-bonus-box-content .best-bonus-box-content-logo a img {
     width: 60%;
 }
 
@@ -88,7 +100,7 @@ h2 {
     align-items: center;
 }
 
-.best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text{
+.best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text {
     padding: 16px;
     color: #ffffff;
 }
@@ -96,9 +108,6 @@ h2 {
 .best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text p {
     margin: 0;
 }
-
-
-
 
 .main-box .card {
     padding: 10px;
@@ -149,7 +158,6 @@ h2 {
     color: #5FA959;
 }
 
-
 .sidebar-right .articles {
     background-color: white;
 }
@@ -174,12 +182,341 @@ h2 {
 .main-box .article-single .date {
     padding: 0 20px 0 20px;
 }
+
+.main-box .bookmaker-details {
+    background-color: #fff;
+    padding: 28px;
+}
+
+.main-box .bookmaker-details .site, .main-box .bookmaker-details .year-of-creation, .main-box .bookmaker-details .platforms, .main-box .bookmaker-details .services {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main-box .bookmaker-details .year-of-creation p {
+    margin: 0;
+}
+
+.main-box .bookmaker-box {
+    padding-top: 26px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile {
+    display: block;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_buttons .leave-feedback {
+    border: 2px solid #5fa959;
+    border-radius: 50px;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_review span {
+    font-size: 30px;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_review a {
+    position: relative;
+    top: -11px;
+    left: 6px;
+    text-decoration: underline;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_logo {
+    padding: 8px 0px;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_mark {
+    padding: 8px 0;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_mark_mobile img, .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile p {
+    position: relative;
+    left: 40px;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_buttons {
+    padding: 3px 0;
+}
+
+.article-mobile-page {
+    background-color: #fff;
+}
+
+.article-mobile-page img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar.navbar-default .navigation-in-article {
+    margin: 0;
+}
+
+.navbar.navbar-default .navigation-in-article li {
+    padding: 0 20px;
+}
+
+.navbar.navbar-default .navigation-in-article li a {
+    color: #000;
+    border-bottom: 2px solid white;
+    padding: 21px 0px;
+}
+
+.navbar.navbar-default .navigation-in-article li a:hover {
+    color: #64BE5B;
+    border-color: #64BE5B;
+}
+
+.navbar.navbar-default .navigation-in-article .active a {
+    background-color: unset;
+    background-image: unset;
+    box-shadow: unset;
+    border-color: #64BE5B;
+    color: #64BE5B;
+}
+
+.pluses-wrap {
+    padding: 34px 18px 34px 34px;
+}
+
+.minuses-wrap {
+    padding: 34px 34px 34px 18px;
+}
+
+.pluses, .minuses {
+    padding: 27px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.pluses img, .minuses img {
+    width: 24px;
+    height: 24px;
+}
+
+.pluses .item, .minuses .item {
+    display: flex;
+}
+
+.pluses .item-content, .minuses .item-content {
+    padding: 0 10px;
+}
+
+.article-mobile-page-text {
+    padding: 20px;
+}
+
+.download-applications img {
+    width: 59px;
+    height: 59px;
+}
+
+.download-applications {
+    margin: 0 20px;
+}
+
+.download-applications .d-app:first-child {
+    border-right: 1px solid #d7d7d7;
+}
+
+.download-applications .d-app {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.download-applications .d-app .leave-feedback {
+    border-color: #5fa858;
+}
+
+.contacts {
+    padding: 20px;
+}
+
+.contacts .contact-table tr {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contacts .contact-table tr td {
+    padding-right: 16px;
+}
+
+.bonus-banner-box {
+    padding: 20px;
+}
+
+.bonus-banner-box .bonus-banner-wrap {
+    border: 2px solid #f5f5f5;
+}
+
+.bonus-banner-box .bonus-banner-wrap .bonus-banner-box-text {
+    padding: 20px;
+}
+
+.bonus-banner-box .bonus-banner-wrap .bonus-banner-box-text h3 {
+    margin: 0 0 20px 0;
+}
+
+.bonus-banner-box .bonus-banner {
+    position: relative;
+}
+
+.bonus-banner-box .bonus-banner .bonus-banner-icon {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+}
+
+.bonus-banner-box .bonus-banner span {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+.bonus-banner-box .bonus-banner button {
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border-color: #fff;
+    color: white;
+}
+
+.bonus-banner-box .bonus-banner button:hover, .bonus-banner-box .bonus-banner button:focus, .bonus-banner-box .bonus-banner button:active {
+    border-color: #fff;
+    color: #fff;
+
+}
+
+.feedback .feedback-title span, .more-reviews-link span {
+color: #93918f;
+}
+
+.feedback .feedback-box {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+.feedback .feedback-box .feedback-box-header {
+    padding: 10px;
+    display: flex;
+}
+
+
+ .feedback-box-header-ava img {
+    width: 57px;
+    height: 57px;
+}
+
+.feedback .feedback-box .feedback-box-header .feedback-box-header-info {
+     display: flex;
+     flex-direction: column;
+     align-self: center;
+     border-right: 1px solid #f5f5f5;
+     padding: 0 35px 0 22px;
+ }
+
+.feedback .feedback-box .feedback-box-header .feedback-box-header-info .feedback-box-header-info-name p {
+    margin: 0;
+}
+
+.feedback .feedback-box .feedback-box-header .feedback-box-header-info .feedback-box-header-info-data p{
+    color: #cccccc;
+    margin: 0;
+}
+
+.feedback .feedback-box .feedback-box-header .feedback-box-header-mark {
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 25px ;
+}
+
+
+.feedback .feedback-box .feedback-box-content {
+    padding: 0 70px;
+}
+
+.feedback-box-content-item-plus, .feedback-box-content-item-minus {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.feedback-box-content-item-minus .feedback-box-content-item-minus-header, .feedback-box-content-item-plus .feedback-box-content-item-plus-header {
+    display: flex;
+}
+
+.feedback-box-content-item-minus .feedback-box-content-item-minus-header h4, .feedback-box-content-item-plus .feedback-box-content-item-plus-header h4 {
+    margin-top: 3px;
+    padding-left: 14px;
+}
+
+
+.feedback-box-content-item-plus .image img, .feedback-box-content-item-minus .image img {
+    width: 24px;
+    height: 24px;
+}
+
+.feedback-box-content-item-plus .item, .feedback-box-content-item-minus .item {
+    display: flex;
+}
+
+.more-reviews-link {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.more-reviews-link a {
+    color: #5FA959;
+}
+
 /*START MEDIA*/
+
+@media screen and (min-width: 320px) and (max-width: 410px) {
+    .main-box .bookmaker-box .bookmaker-box-content img {
+        padding: 0px 1px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo img {
+        width: 80%;
+        padding: 0;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
+        font-size: 10px;
+    }
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .bookmaker_table_offer_logo_title {
         left: 25px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -189,8 +526,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 991px) and (min-width: 768px)  {
-
+@media screen and (max-width: 991px) and (min-width: 768px) {
 
     .best-bonus-box .best-bonus-box-content:nth-child(2) {
         padding: 0 5px 0 0;
@@ -207,11 +543,106 @@ h2 {
     .best-bonus-box .best-bonus-box-content:nth-child(5) {
         padding: 0 0 0 5px;
     }
+
 }
 
 @media screen and (max-width: 991px) {
     footer .container-fluid {
         margin: 0;
     }
+
+    .navbar.navbar-default .navigation-in-article li {
+        float: left;
+    }
+
+    .bonus-banner-box {
+        padding: 0;
+    }
+
+    .bonus-banner-box .bonus-banner-box-title {
+        padding: 0 20px;
+    }
+
+    .bonus-banner-box .bonus-banner-wrap {
+        border: 0px;
+    }
+
 }
+
+@media screen and (max-width: 767px) {
+    .main-box .bookmaker-box .bookmaker_table_offer_review span {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_review a {
+        position: unset;
+    }
+
+    .main-box .bookmaker-box {
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_logo {
+        padding-bottom: 0;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_logo .logo-img {
+        width: 119px !important;
+    }
+
+    .pluses-wrap, .minuses-wrap {
+        padding: 20px 20px 0 20px;
+    }
+
+    .download-applications .d-app {
+        margin-bottom: 20px;
+    }
+
+    .download-applications .d-app:first-child {
+        border-right: 0;
+    }
+
+
+    .bonus-banner-box .bonus-banner span {
+        font-size: 7vw;
+        left: 26%;
+    }
+
+    .bonus-banner-box .bonus-banner button {
+        font-size: 4vw;
+        left: 66%;
+    }
+
+    .bonus-banner-box .bonus-banner-wrap .bonus-banner {
+        padding: 20px;
+    }
+
+    .feedback .feedback-box .feedback-box-header {
+        justify-content: space-between;
+    }
+
+    .feedback .feedback-box .feedback-box-content {
+        padding: 0;
+    }
+
+    .feedback .feedback-box .feedback-box-header .feedback-box-header-info {
+        width: 50%;
+        padding-left: 11px;
+    }
+
+    .more-reviews-link {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .download-applications .d-app {
+        border-radius: 0;
+    }
+
+}
+
 /*END MEDIA*/
