@@ -51,7 +51,7 @@ a:hover, a:focus, a:active {
     background-image: unset;
     background-color: unset;
     box-shadow: unset;
-    border-color: #ccc;
+    border-color: #5FA959;
 }
 
 .button {
@@ -64,20 +64,21 @@ a:hover, a:focus, a:active {
 
 .button:hover {
     background-color: unset;
-    border-color: #ccc;
+    border-color: #5FA959;
+
 }
 
 .green-btn {
     background-color: #5fa959;
     color: white;
     border-color: #5fa959;
-    
+
 }
 
-.green-btn:hover, .green-btn:focus, .green-btn:active {
-    background-color: #5fa959 !important;
-    color: white !important;
-    border-color: #5fa959 !important;
+.green-btn:hover, .green-btn:active, .green-btn:focus  {
+    background-color: #fff !important;
+    color: #5fa959 !important;
+    font-weight: bold;
 }
 
 /*END COMMON*/
