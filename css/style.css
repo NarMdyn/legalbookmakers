@@ -1,24 +1,225 @@
 /*START FONTS*/
 @font-face {
-    font-family: Gilroy-Medium;
-    src: url("../fonts/Gilroy-Medium.eot") format("embedded-opentype"), url("../fonts/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy-Medium.woff") format("woff");
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+    url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+    url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
-    font-weight: normal;
 }
 
 @font-face {
-    font-family: Gilroy-SemiBold;
-    src: url("../fonts/Gilroy-SemiBold.eot") format("embedded-opentype"), url("../fonts/Gilroy-SemiBold.ttf") format("truetype"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.eot');
+    src: local('Gilroy Heavy'), local('Gilroy-Heavy'),
+    url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Heavy.woff') format('woff'),
+    url('../fonts/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
-    font-weight: normal;
 }
 
 @font-face {
-    font-family: Gilroy-Regular;
-    src: url("../fonts/Gilroy-Regular.eot") format("embedded-opentype"), url("../fonts/Gilroy-Regular.ttf") format("truetype"), url("../fonts/Gilroy-Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-LightItalic.eot');
+    src: local('Gilroy Light Italic'), local('Gilroy-LightItalic'),
+    url('../fonts/Gilroy-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-LightItalic.woff') format('woff'),
+    url('../fonts/Gilroy-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
 }
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ThinItalic.eot');
+    src: local('Gilroy Thin Italic'), local('Gilroy-ThinItalic'),
+    url('../fonts/Gilroy-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-ThinItalic.woff') format('woff'),
+    url('../fonts/Gilroy-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BlackItalic.eot');
+    src: local('Gilroy Black Italic'), local('Gilroy-BlackItalic'),
+    url('../fonts/Gilroy-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-BlackItalic.woff') format('woff'),
+    url('../fonts/Gilroy-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BoldItalic.eot');
+    src: local('Gilroy Bold Italic'), local('Gilroy-BoldItalic'),
+    url('../fonts/Gilroy-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-BoldItalic.woff') format('woff'),
+    url('../fonts/Gilroy-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
+    url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+    url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLightItalic.eot');
+    src: local('Gilroy UltraLight Italic'), local('Gilroy-UltraLightItalic'),
+    url('../fonts/Gilroy-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-UltraLightItalic.woff') format('woff'),
+    url('../fonts/Gilroy-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBoldItalic.eot');
+    src: local('Gilroy SemiBold Italic'), local('Gilroy-SemiBoldItalic'),
+    url('../fonts/Gilroy-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/Gilroy-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+    url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Light.woff') format('woff'),
+    url('../fonts/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-MediumItalic.eot');
+    src: local('Gilroy Medium Italic'), local('Gilroy-MediumItalic'),
+    url('../fonts/Gilroy-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-MediumItalic.woff') format('woff'),
+    url('../fonts/Gilroy-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-ExtraBoldItalic.eot');
+    src: local('Gilroy ExtraBold Italic'), local('Gilroy-ExtraBoldItalic'),
+    url('../fonts/Gilroy-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/Gilroy-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+    url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Regular.woff') format('woff'),
+    url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-HeavyItalic.eot');
+    src: local('Gilroy Heavy Italic'), local('Gilroy-HeavyItalic'),
+    url('../fonts/Gilroy-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-HeavyItalic.woff') format('woff'),
+    url('../fonts/Gilroy-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('Gilroy Medium'), local('Gilroy-Medium'),
+    url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-RegularItalic.eot');
+    src: local('Gilroy Regular Italic'), local('Gilroy-RegularItalic'),
+    url('../fonts/Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-RegularItalic.woff') format('woff'),
+    url('../fonts/Gilroy-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-UltraLight.eot');
+    src: local('Gilroy UltraLight'), local('Gilroy-UltraLight'),
+    url('../fonts/Gilroy-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-UltraLight.woff') format('woff'),
+    url('../fonts/Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: local('Gilroy Bold'), local('Gilroy-Bold'),
+    url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Thin.eot');
+    src: local('Gilroy Thin'), local('Gilroy-Thin'),
+    url('../fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Thin.woff') format('woff'),
+    url('../fonts/Gilroy-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Black.eot');
+    src: local('Gilroy Black'), local('Gilroy-Black'),
+    url('../fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Black.woff') format('woff'),
+    url('../fonts/Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 
 /*END FONTS*/
 
@@ -29,17 +230,30 @@
 }
 
 body {
-    font-family: Gilroy-Medium;
+    font-family: Gilroy;
     background-color: #f5f5f5;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
 }
 
 a {
     color: #000000;
     text-decoration: none;
-}
-
-h2 {
-    font-family: Gilroy-SemiBold;
 }
 
 a:hover, a:focus, a:active {
@@ -55,6 +269,9 @@ a:hover, a:focus, a:active {
 }
 
 .button {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
     background-image: unset;
     border-radius: 50px;
     box-shadow: unset;
@@ -75,10 +292,20 @@ a:hover, a:focus, a:active {
 
 }
 
-.green-btn:hover, .green-btn:active, .green-btn:focus  {
+.green-btn:hover, .green-btn:active, .green-btn:focus {
     background-color: #fff !important;
     color: #5fa959 !important;
     font-weight: bold;
+}
+
+.guide-button {
+    border-color: #69b366;
+}
+
+.guide-button:hover, .guide-button:active, .guide-button:focus {
+    background-color: #478d47 !important;
+    color: #fff !important;
+    font-weight: 600;
 }
 
 /*END COMMON*/
@@ -122,7 +349,7 @@ a:hover, a:focus, a:active {
 
 .navbar.navbar-default .navbar-header .navbar-toggle {
     border: none;
-    margin: 18px;
+    margin: 18px 10px 18px 0;
 }
 
 .navbar.navbar-default .navbar-header .navbar-toggle span {
@@ -132,6 +359,7 @@ a:hover, a:focus, a:active {
 .navbar.navbar-default .navbar-header .navbar-brand {
     height: auto;
     margin: 0;
+    padding: 15px 10px;
 }
 
 .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav {
@@ -184,6 +412,10 @@ a:hover, a:focus, a:active {
     padding: 10px 0 25px 0;
 }
 
+.main-box .all-bet-link a {
+    font-size: 17px;
+}
+
 .main-box .bookmaker-box {
     background-color: #fff;
     padding: 14px;
@@ -200,9 +432,24 @@ a:hover, a:focus, a:active {
     margin-bottom: 12px;
 }
 
+.main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo {
+    width: 140px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p{
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+}
+
 .main-box .bookmaker-box .bookmaker-box-content img, .main-box .bookmaker-box .bookmaker-box-content p {
     display: inline-block;
     margin: 0;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content p {
+    font-size: 18px;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content img {
@@ -216,6 +463,9 @@ a:hover, a:focus, a:active {
 }
 
 .main-box .bookmaker-box .bookmaker-box-header .bookmeker_table_offer_number p {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
     margin: 0;
     color: #cccccc;
 }
@@ -223,16 +473,59 @@ a:hover, a:focus, a:active {
 .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
     background-color: #f2eff0;
     border-radius: 50px;
-    padding: 8px 10px;
+    padding: 8px 25px;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus img {
-    padding: 0 6px 0 4px;
+    padding: 0 6px 0 0;
 }
 
 .bet-guide {
     background-color: #fff;
     padding: 15px 30px 50px 30px;
+    border-radius: 3px;
+}
+
+.bet-guide .bet-guide-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bet-guide .bet-guide-header h2 {
+    margin-top: 10px;
+}
+
+.bet-guide .bet-guide-header button {
+    width: 163px;
+    position: relative;
+}
+
+.bet-guide .bet-guide-header .guide-btn-content {
+    display: flex;
+    align-items: center;
+}
+
+.bet-guide .bet-guide-header .guide-btn-content p {
+    padding-left: 14px;
+}
+
+.bet-guide .bet-guide-header .green-btn-bar{
+    height: 18px;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    left: 8%;
+}
+
+.bet-guide .bet-guide-header .green-btn-bar-item {
+    width: 20px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.bet-guide .bet-guide-header .bet-guide-more {
+    padding-left: 30px;
 }
 
 .bet-guide-content ul {
@@ -265,6 +558,8 @@ a:hover, a:focus, a:active {
     justify-content: center;
     align-items: center;
 }
+
+
 
 /*END MAIN-BOX*/
 
@@ -323,12 +618,15 @@ a:hover, a:focus, a:active {
 }
 
 .date {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
     color: #a7a5a3;
     font-size: 13px;
 }
 
 .article .padding h5 {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .sidebar-right .article .article-content {
@@ -342,8 +640,15 @@ a:hover, a:focus, a:active {
 }
 
 .sidebar-right .article-addon {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
     display: flex;
     color: #93918f;
+}
+
+.sidebar-right .article-addon .date{
+    font-size: 14px;
 }
 
 .sidebar-right .article-addon .views {
@@ -373,6 +678,10 @@ footer .container-fluid {
 }
 
 .footer-box .footer-box-title {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
     color: #64BE5B;
 }
 
@@ -383,6 +692,10 @@ footer .container-fluid {
 }
 
 .footer-box ul li {
+    font-family: Gilroy ;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -397,7 +710,10 @@ footer .container-fluid {
 }
 
 .footer-box .copyright {
+    font-family: Gilroy;
     color: #A8A9A8;
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*END FOOTER*/
@@ -410,17 +726,20 @@ footer .container-fluid {
         padding-bottom: 20px;
     }
 
+
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo img {
         width: 100%;
         padding: 0 7px;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
-        width: 47%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
@@ -444,6 +763,10 @@ footer .container-fluid {
         font-size: 12px;
     }
 
+    .slider-mobile .review-card .rev-raiting-mobile .rev-logo img {
+        width: 80% !important;
+    }
+
 }
 
 @media screen and (min-width: 356px) and (max-width: 430px) {
@@ -465,6 +788,13 @@ footer .container-fluid {
     }
 }
 
+@media screen and (min-width: 320px) and (max-width: 423px) {
+    .slider-mobile .review-card .review-card-content-writer .rev-writer .rev-writer-info .rev-writer-info-date {
+        width: 110%;
+    }
+
+}
+
 @media screen and (min-width: 359px) and (max-width: 381px) {
 
     .main-box .bookmaker-box .bookmaker-box-content {
@@ -477,21 +807,34 @@ footer .container-fluid {
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
-        width: 37%;
+        width: 43%;
+        padding: 8px 22px;
     }
 
-    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
-        width: 28%;
-    }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
         margin-left: 7px;
     }
 
+}
+
+@media screen and (min-width: 381px) and (max-width: 405px) {
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        padding: 8px 14px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
+        font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 417px) {
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus p {
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 586px) and (max-width: 767px) {
@@ -502,9 +845,7 @@ footer .container-fluid {
 
 @media screen and (max-width: 1440px) {
 
-    .navbar.navbar-default .navbar-header .navbar-brand {
-        padding: 10px;
-    }
+
 
     .navbar.navbar-default .collapse.navbar-collapse .nav.navbar-nav li a {
         padding: 19px 0;
@@ -576,9 +917,14 @@ footer .container-fluid {
         right: 94px;
     }
 
-    .navbar.navbar-default .navbar-header .navbar-brand {
-        padding: 15px !important;
+    .navbar.navbar-default .navbar-header .navbar-toggle {
+        margin-left: 10px;
     }
+
+    .navbar.navbar-default .navbar-header .navbar-brand {
+        padding: 15px 0 !important;
+    }
+
 
     .slick-list {
         overflow: hidden !important;
@@ -627,6 +973,10 @@ footer .container-fluid {
     .sidebar-right .articles .article {
         background-color: white;
     }
+
+    .slider .review-card .review-card-content-writer .rev-writer {
+        border-right: 0 !important;
+    }
 }
 
 @media screen and (min-width: 468px) and (max-width: 767px) {
@@ -652,7 +1002,46 @@ footer .container-fluid {
     .footer-box .social-icon {
         width: 120%;
     }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        padding: 8px 15px;
+    }
+
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .slider .review-card .review-card-content-writer .rev-logo img {
+        width: 80%;
+    }
+
+    .slider .review-card .review-card-content-writer .rev-writer .rev-writer-info  {
+        padding: 0 4px !important;
+    }
+
+    .slider .review-card .review-card-content-writer .rev-writer .rev-writer-info {
+        font-size: 13px;
+    }
+
+    .slider .review-card .review-card-content-writer .rev-writer .rev-writer-ava img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .slider .review-card .review-card-content-writer .rev-logo {
+        padding: 0 !important;
+    }
+
+    .rev-writer-info-name {
+        font-size: 14px !important;
+    }
+
+    .rev-writer-info-date {
+        font-size: 12px !important;
+    }
+
+
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .bet-guide-content .col-sm-6 {
@@ -763,14 +1152,11 @@ footer .container-fluid {
         font-size: 12px;
     }
 
-    .navbar.navbar-default .navbar-header .navbar-brand {
-        padding: 10px;
-    }
 }
 
 @media (max-width: 1148px) and (min-width: 768px) {
     .navbar.navbar-default .navbar-header .navbar-brand {
-        padding: 16px 0;
+        padding: 19px 0;
     }
 
     .navbar-brand > img {
@@ -785,14 +1171,6 @@ footer .container-fluid {
         font-size: 12px;
     }
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -817,7 +1195,9 @@ footer .container-fluid {
     }
 
 
-
+    .bet-guide-content .bet-guide-body-box {
+        left: -10px;
+    }
 
 
     .navbar-fixed-top {
@@ -852,51 +1232,126 @@ footer .container-fluid {
 
 /*START SLIDER*/
 
-.slider {
-    margin: 20px 0;
+.rev-writer-info-date {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    color: #a7a5a3;
+    font-size: 14px;
 }
 
-.slider .item {
+.rev-writer-info-name {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.rev-mark {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.rev-mark p {
+    padding: 0 10px;
+}
+
+.review-card-content-comment {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+.slider .review-card {
     background-color: #fff;
-    border-right: 20px solid #f5f5f5;
+    height: auto;
+    padding: 20px;
+
 }
 
-.slider .item .slider-item-header, .slider .item .slider-item-content {
-    padding: 16px 16px 0 16px;
+.slider .review-card  img {
+    width: auto;
 }
 
-.slider .item .slider-item-header .author-info img {
-    width: 55px;
-    height: 55px;
+.slider .review-card hr {
+    margin-bottom: 0;
 }
 
-.slider .item .slider-item-header .author-info {
+.slider .review-card .review-card-content, .slider .review-card .review-card-content-writer,  .slider .review-card .review-card-content-writer .rev-writer {
     display: flex;
-    justify-content: space-around;
-    border-right: 1px solid #cccccc;
 }
 
-.slider .item .slider-item-header .slider-bookmaker-logo {
-    padding: 14px;
+.slider .review-card .review-card-content-writer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid #c5c5c5;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer .rev-writer-ava img {
+    width: 57px;
+    height: 57px;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer .rev-writer-info  {
+    padding: 0 10px;
+}
+
+.slider .review-card .review-card-content-writer .rev-logo {
+    display: flex;
+    justify-content: center;
+    padding-right: 13px;
+}
+
+.slider .review-card .review-card-content-raiting .rev-mark {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.slider .review-card .review-card-content-more {
+    text-align: center;
+    padding-top: 20px ;
+    color: #5fa959;
+}
+
+.slider-mobile .review-card .rev-raiting-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-mobile .review-card .review-card-content-writer {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.slider .item .slider-item-content .comment p {
-    padding: 20px 6px;
+.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting {
+    width: 50%;
 }
 
-.slider .item .slider-footer hr {
-    margin: 0;
+.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting .rev-mark {
+    justify-content: center;
 }
 
-.slider .item .slider-footer .show-comment-link {
-    text-align: center;
-    padding: 20px;
+.slider-mobile .review-card .rev-raiting-mobile .rev-logo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 0;
+    border-right: 1px solid #c5c5c5;
 }
 
-.slider .item .slider-footer .show-comment-link a {
-    color: #5fa959;
-}
 
 /*END SLIDER*/

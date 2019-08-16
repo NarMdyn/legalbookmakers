@@ -14,6 +14,9 @@ h2 {
 }
 
 .main-box .bookmaker-box-bonus {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
     margin: 1px 0 ;
 }
 
@@ -36,39 +39,77 @@ h2 {
     padding: 24px;
 }
 
+.main-box .bookmaker-box-top-bonus .bookmaker-box-content p  {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .bookmaker_table_offer_logo_title {
     position: relative;
     top: -11px;
+    color: #a9a9a9;
+}
+
+.bookmaker_table_offer_logo_title p{
+    font-size: 14px !important;
 }
 
 .bookmaker_table_offer_mark_title {
     position: relative;
     top: -11px;
-    left: 46px;
+    left: 35px;
+    color: #a9a9a9;
+}
+
+.bookmaker_table_offer_mark_title p{
+    font-size: 14px !important;
 }
 
 .bookmaker_table_offer_review_title {
     position: relative;
     top: -11px;
+    left: -15px;
+    color: #a9a9a9;
+}
+
+.bookmaker_table_offer_review_title p{
+    font-size: 14px !important;
 }
 
 .bookmaker_table_offer_bonus_title {
     position: relative;
     top: -11px;
-    left: -50px;
+    left: -65px;
+    color: #a9a9a9;
 }
+
+.bookmaker_table_offer_bonus_title p{
+     font-size: 14px !important;
+ }
+
 
 .bookmaker_table_offer_platforms_icon_title {
     position: relative;
     top: -11px;
     left: -60px;
+    color: #a9a9a9;
 }
 
-.bookmaker_table_offer_bonus_title_moile {
+.bookmaker_table_offer_platforms_icon_title p{
+    font-size: 14px !important;
+}
+
+.bookmaker_table_offer_bonus_title_mobile {
     position: relative;
     top: -11px;
     left: -5px;
+    color: #a9a9a9;
+}
+
+.bookmaker_table_offer_bonus_title_mobile p{
+    font-size: 14px !important;
 }
 
 .bookmaker-content .info, .bet-guide-article-box-content .info {
@@ -79,6 +120,14 @@ h2 {
 
 .bookmaker-content .info .info-icon, .bet-guide-article-box-content .info .info-icon {
     padding: 10px;
+}
+
+.bookmaker-content .info .info-text {
+    font-size: 18px;
+}
+
+.bet-guide-article-box-content .info .info-text {
+    font-size: 18px;
 }
 
 .best-bonus-box .best-bonus-box-content {
@@ -109,6 +158,10 @@ h2 {
     padding: 15px;
 }
 
+.best-bonus-box .best-bonus-box-content .bonus-more .link-more a{
+    color: #A9A9A9;
+}
+
 .best-bonus-box .best-bonus-box-content .get-bonus {
     display: flex;
     justify-content: space-around;
@@ -122,7 +175,7 @@ h2 {
 
 .best-bonus-box .best-bonus-box-content .get-bonus .get-bonus-text p {
     margin: 0;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .main-box .card {
@@ -145,7 +198,17 @@ h2 {
 }
 
 .main-box .card .card-header .title {
-    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.main-box .card .card-content ul {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 14px;
 }
 
 .main-box .card .card-content ul li {
@@ -164,6 +227,10 @@ h2 {
 }
 
 .main-box .card .card-footer .more-link a {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
     padding: 20px;
 }
 
@@ -176,6 +243,7 @@ h2 {
 
 .sidebar-right .articles {
     background-color: white;
+    border-radius: 3px;
 }
 
 .sidebar-right .articles .article:first-child {
@@ -191,28 +259,93 @@ h2 {
     height: auto;
 }
 
+.main-box .article-single .content .date-view{
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    color: #A9A9A9;
+    font-size: 14px;
+}
+
+.main-box .article-single .content .date-view .views {
+    display: flex;
+    align-items: center;
+}
+.main-box .article-single .content .date-view .date {
+    font-size: 14px;
+    padding: 0 20px 0 20px;
+}
+
+.main-box .article-single .content .date-view .views img {
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+}
+
 .main-box .article-single .text {
     padding: 20px;
 }
 
-.main-box .article-single .date {
-    padding: 0 20px 0 20px;
+.main-box .article-single .text p {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
 }
 
-.main-box .bookmaker-details {
+.main-box .article-single .text h4 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.main-box .article-single .text hr {
+    margin-top: 40px;
+}
+
+.main-box .articles-box .articles-box-title-news {
+    margin-top: 54px;
+}
+
+
+
+.main-box .bookmaker-details-box .bookmaker-details {
     background-color: #fff;
     padding: 28px;
+    width: 100%;
+    border-radius: 3px;
 }
 
-.main-box .bookmaker-details .site, .main-box .bookmaker-details .year-of-creation, .main-box .bookmaker-details .platforms, .main-box .bookmaker-details .services {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
+.main-box .bookmaker-details-box .bookmaker-details tr td {
+    height: 70px;
+    border-bottom: 1px solid #f5f5f5;
 }
 
-.main-box .bookmaker-details .year-of-creation p {
-    margin: 0;
+.main-box .bookmaker-details-box .bookmaker-details tr td img {
+    padding-right: 30px;
 }
+
+.main-box .bookmaker-details-box .bookmaker-details tr td:first-child span {
+    padding-left: 20px ;
+}
+
+/*.main-box .bookmaker-details .site, .main-box .bookmaker-details .year-of-creation, .main-box .bookmaker-details .platforms, .main-box .bookmaker-details .services {*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*padding: 15px;*/
+/*}*/
+
+.main-box .bookmaker-details .platforms  img{
+    width: auto;
+    height: auto;
+}
+
+/*.main-box .bookmaker-details .year-of-creation p {*/
+    /*margin: 0;*/
+/*}*/
 
 .main-box .bookmaker-box {
     padding-top: 26px;
@@ -229,6 +362,19 @@ h2 {
     display: block;
 }
 
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile {
+    display: flex;
+    align-items: center;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile img {
+    padding-right: 10px;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile p {
+    font-size: 30px;
+}
+
 .main-box .bookmaker-box .bookmaker_table_offer_buttons .leave-feedback {
     border: 2px solid #5fa959;
     border-radius: 50px;
@@ -239,8 +385,10 @@ h2 {
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_review a {
+    font-size: 14px;
+    color: #5FA959;
     position: relative;
-    top: -11px;
+    top: -6px;
     left: 6px;
     text-decoration: underline;
 }
@@ -261,6 +409,7 @@ h2 {
 .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile img, .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile p {
     position: relative;
     left: 40px;
+    font-size: 18px;
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_buttons {
@@ -273,8 +422,12 @@ h2 {
 }
 
 .main-box .bet-guide-article .bet-guide-article-box {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
     background-color: #ffffff;
     padding: 20px;
+    border-radius: 3px;
 }
 
 .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-title {
@@ -296,22 +449,28 @@ h2 {
     font-size: 18px;
 }
 
+.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules .sale-rules-header{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules ul {
     list-style-image: url("../icons/list-style-circle.png");
     font-size: 16px;
 }
 
-.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments {
+.social-comments {
     display: flex;
     padding-top: 20px
 }
 
-.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-vk, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-fb, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-insta, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-twitter {
+.social-comments .social-comments-vk, .social-comments .social-comments-fb, .social-comments .social-comments-insta, .social-comments .social-comments-twitter {
     position: relative;
     padding: 0 10px;
 }
 
-.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-vk p, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-fb p, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-insta p, .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments .social-comments-twitter p {
+.social-comments .social-comments-vk p, .social-comments .social-comments-fb p, .social-comments .social-comments-insta p, .social-comments .social-comments-twitter p {
     position: absolute;
     top: 50%;
     left: 60%;
@@ -329,6 +488,10 @@ h2 {
 }
 
 .navbar.navbar-default .navigation-in-article {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -364,9 +527,30 @@ h2 {
 }
 
 .pluses, .minuses {
-    padding: 27px;
+    padding: 20px;
     background-color: #f5f5f5;
-    border-radius: 5px;
+    border-radius: 3px;
+}
+
+.pluses .header, .minuses .header {
+    padding-bottom: 5px;
+}
+
+.pluses .header h4, .minuses .header h4 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.pluses .header h4 {
+    color: #6CAF66;
+}
+
+.minuses .header h4 {
+    color: #FF0534;
 }
 
 .pluses img, .minuses img {
@@ -375,7 +559,12 @@ h2 {
 }
 
 .pluses .item, .minuses .item {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
     display: flex;
+    padding: 10px 0;
 }
 
 .pluses .item-content, .minuses .item-content {
@@ -386,34 +575,96 @@ h2 {
     padding: 20px;
 }
 
+.article-mobile-page-text h3 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.article-mobile-page-text h4 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #5FA959;
+}
+
+.article-mobile-page-text p {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    padding: 10px 0;
+}
+
+.article-mobile-page-text ul {
+    list-style-image: url("../icons/list-style-circle.png");
+}
+
+.article-mobile-page-text ul li p {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+}
+
 .download-applications img {
     width: 59px;
     height: 59px;
 }
 
 .download-applications {
+    background: whitesmoke;
     margin: 0 20px;
 }
 
 .download-applications .d-app:first-child {
-    border-right: 1px solid #d7d7d7;
+    border-right: 1px solid #d8d8d8;
 }
 
 .download-applications .d-app {
+    position: relative;
     background: whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px;
     border-radius: 5px;
+    margin: 10px 0;
+}
+
+.download-applications .d-app span {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    color: #5FA959;
+    padding-left: 30px;
 }
 
 .download-applications .d-app .leave-feedback {
     border-color: #5fa858;
+    background: transparent;
 }
 
 .contacts {
     padding: 20px;
+}
+
+.contacts h3, .bonus-banner-box-title h2{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.contacts .contact-table {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    margin: 15px 0;
+    width: 33%;
 }
 
 .contacts .contact-table tr {
@@ -421,8 +672,13 @@ h2 {
     display: block;
 }
 
+.contacts .contact-table td:last-child {
+    color: #5FA959;
+}
+
 .contacts .contact-table tr td {
-    padding-right: 16px;
+    padding:0 16px;
+    width: 42%;
 }
 
 .bonus-banner-box {
@@ -438,7 +694,11 @@ h2 {
 }
 
 .bonus-banner-box .bonus-banner-wrap .bonus-banner-box-text h3 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
     margin: 0 0 20px 0;
+    color: #5FA959;
 }
 
 .bonus-banner-box .bonus-banner {
@@ -483,6 +743,12 @@ h2 {
     color: #93918f;
 }
 
+.feedback .feedback-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .feedback .feedback-box {
     background-color: #ffffff;
     padding: 10px;
@@ -512,6 +778,10 @@ h2 {
 }
 
 .feedback .feedback-box .feedback-box-header .feedback-box-header-info .feedback-box-header-info-data p {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
     color: #cccccc;
     margin: 0;
 }
@@ -520,7 +790,7 @@ h2 {
     display: flex;
     align-items: center;
     padding: 0 35px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .feedback .feedback-box .feedback-box-content {
@@ -528,17 +798,36 @@ h2 {
 }
 
 .feedback-box-content-item-plus, .feedback-box-content-item-minus {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
     padding: 0 20px;
     margin-bottom: 10px;
 }
 
 .feedback-box-content-item-minus .feedback-box-content-item-minus-header, .feedback-box-content-item-plus .feedback-box-content-item-plus-header {
     display: flex;
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 
 .feedback-box-content-item-minus .feedback-box-content-item-minus-header h4, .feedback-box-content-item-plus .feedback-box-content-item-plus-header h4 {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
     margin-top: 3px;
     padding-left: 14px;
+}
+
+.feedback-box-content-item-plus .feedback-box-content-item-plus-header h4 {
+    color: #5FA859;
+}
+
+
+.feedback-box-content-item-minus .feedback-box-content-item-minus-header h4 {
+    color: #FF0534;
 }
 
 .feedback-box-content-item-plus .image img, .feedback-box-content-item-minus .image img {
@@ -659,6 +948,9 @@ h2 {
 }
 
 .join-to-winline .join-to-winline-content ul {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
     list-style-image: url("../icons/check-mark-icon.png");
 }
 
@@ -672,24 +964,30 @@ h2 {
     padding: 0 20px;
 }
 
-ol {
+.reg-winline-bonus-content ol {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.reg-winline-bonus-content ol {
     list-style: none;
     counter-reset: my-counter;
     padding: 0;
 }
 
-ol li {
+.reg-winline-bonus-content ol li {
     display: inline-flex;
     margin-bottom: 15px;
 }
 
 
-ol li p{
+.reg-winline-bonus-content ol li p{
     margin: 0 15px;
 }
 
 
-ol li:before {
+.reg-winline-bonus-content ol li:before {
     content: counter(my-counter);
     counter-increment: my-counter;
     background-image: url(../icons/green-circle.png);
@@ -700,7 +998,7 @@ ol li:before {
     font-size: 15px;
 }
 
-ol li:first-child:before {
+.reg-winline-bonus-content ol li:first-child:before {
     padding: 9px 14px 10px 16px;
 
 }
@@ -727,6 +1025,9 @@ ol li:first-child:before {
 }
 
 .article-mobile-page .get-bonus .get-bonus-icon p {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
     margin: 0;
     padding: 0 15px;
     font-size: 20px;
@@ -736,22 +1037,40 @@ ol li:first-child:before {
     padding: 0 15px;
 }
 
+.winline-guide-bookmaker {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.winline-guide-bookmaker .winline-guide-box .winline-guide-box-title {
+    padding: 0 20px;
+}
+
+
 .winline-guide-box-main {
     background-color: #fff;
     padding: 20px 0;
+    border-radius: 3px;
 }
 
 .winline-guide-box-main .winline-guide .winline-guide-content ul {
+    font-family: Gilroy;
+    font-weight: 600;
+    font-style: normal;
     list-style-image: url("../icons/list-style-circle.png");
     margin-bottom: 0;
 }
 
-.winline-guide-box-main .winline-guide .winline-guide-content ul a li {
-    color: #5FA959;
+.winline-guide-box-main .winline-guide .winline-guide-content ul li {
     text-decoration: underline;
     padding: 10px 15px;
 }
 
+
+.winline-guide-box-main .winline-guide .winline-guide-content ul li a {
+    color: #5FA959;
+}
 
 /*START MEDIA*/
 
@@ -767,6 +1086,10 @@ ol li:first-child:before {
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_buttons .green-btn {
         font-size: 10px;
+    }
+
+    h2 {
+        font-size: 27px;
     }
 }
 
@@ -871,6 +1194,10 @@ ol li:first-child:before {
         padding: 20px 20px 0 20px;
     }
 
+    .download-applications {
+        background-color: #ffffff;
+    }
+
     .download-applications .d-app {
         margin-bottom: 20px;
     }
@@ -951,7 +1278,7 @@ ol li:first-child:before {
         width: 100%;
     }
 
-    .main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .social-comments {
+  .social-comments {
         justify-content: center;
     }
 
