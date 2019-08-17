@@ -293,7 +293,7 @@ a:hover, a:focus, a:active {
 }
 
 .green-btn:hover, .green-btn:active, .green-btn:focus {
-    background-color: #fff !important;
+    background-color: transparent !important;
     color: #5fa959 !important;
     font-weight: bold;
 }

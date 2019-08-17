@@ -5,11 +5,12 @@ main {
 hr {
     margin: 0;
 }
+
 h2 {
     margin-bottom: 20px;
 }
 
-.main-box .bonus-page-title{
+.main-box .bonus-page-title {
     margin-bottom: 30px;
 }
 
@@ -17,7 +18,7 @@ h2 {
     font-family: Gilroy;
     font-weight: normal;
     font-style: normal;
-    margin: 1px 0 ;
+    margin: 1px 0;
 }
 
 .bookmaker-box-mobile {
@@ -39,12 +40,11 @@ h2 {
     padding: 24px;
 }
 
-.main-box .bookmaker-box-top-bonus .bookmaker-box-content p  {
+.main-box .bookmaker-box-top-bonus .bookmaker-box-content p {
     font-family: Gilroy;
     font-weight: normal;
     font-style: normal;
 }
-
 
 .bookmaker_table_offer_logo_title {
     position: relative;
@@ -52,7 +52,7 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_logo_title p{
+.bookmaker_table_offer_logo_title p {
     font-size: 14px !important;
 }
 
@@ -63,7 +63,7 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_mark_title p{
+.bookmaker_table_offer_mark_title p {
     font-size: 14px !important;
 }
 
@@ -74,7 +74,7 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_review_title p{
+.bookmaker_table_offer_review_title p {
     font-size: 14px !important;
 }
 
@@ -85,10 +85,9 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_bonus_title p{
-     font-size: 14px !important;
- }
-
+.bookmaker_table_offer_bonus_title p {
+    font-size: 14px !important;
+}
 
 .bookmaker_table_offer_platforms_icon_title {
     position: relative;
@@ -97,7 +96,7 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_platforms_icon_title p{
+.bookmaker_table_offer_platforms_icon_title p {
     font-size: 14px !important;
 }
 
@@ -108,7 +107,7 @@ h2 {
     color: #a9a9a9;
 }
 
-.bookmaker_table_offer_bonus_title_mobile p{
+.bookmaker_table_offer_bonus_title_mobile p {
     font-size: 14px !important;
 }
 
@@ -158,7 +157,7 @@ h2 {
     padding: 15px;
 }
 
-.best-bonus-box .best-bonus-box-content .bonus-more .link-more a{
+.best-bonus-box .best-bonus-box-content .bonus-more .link-more a {
     color: #A9A9A9;
 }
 
@@ -259,7 +258,7 @@ h2 {
     height: auto;
 }
 
-.main-box .article-single .content .date-view{
+.main-box .article-single .content .date-view {
     font-family: Gilroy;
     font-weight: normal;
     font-style: normal;
@@ -273,6 +272,7 @@ h2 {
     display: flex;
     align-items: center;
 }
+
 .main-box .article-single .content .date-view .date {
     font-size: 14px;
     padding: 0 20px 0 20px;
@@ -310,8 +310,6 @@ h2 {
     margin-top: 54px;
 }
 
-
-
 .main-box .bookmaker-details-box .bookmaker-details {
     background-color: #fff;
     padding: 28px;
@@ -329,22 +327,22 @@ h2 {
 }
 
 .main-box .bookmaker-details-box .bookmaker-details tr td:first-child span {
-    padding-left: 20px ;
+    padding-left: 20px;
 }
 
 /*.main-box .bookmaker-details .site, .main-box .bookmaker-details .year-of-creation, .main-box .bookmaker-details .platforms, .main-box .bookmaker-details .services {*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*padding: 15px;*/
+/*display: flex;*/
+/*justify-content: space-between;*/
+/*padding: 15px;*/
 /*}*/
 
-.main-box .bookmaker-details .platforms  img{
+.main-box .bookmaker-details .platforms img {
     width: auto;
     height: auto;
 }
 
 /*.main-box .bookmaker-details .year-of-creation p {*/
-    /*margin: 0;*/
+/*margin: 0;*/
 /*}*/
 
 .main-box .bookmaker-box {
@@ -352,6 +350,15 @@ h2 {
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.main-box .bookmaker-box.bookmaker-box-mobile-page {
+    padding: 20px 14px;
+}
+
+.main-box .bookmaker-box .row-mobile-page {
+    display: flex;
+    align-items: center;
 }
 
 .main-box .bookmaker-box-top-bet {
@@ -362,18 +369,49 @@ h2 {
     display: block;
 }
 
-.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile {
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile div {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile img {
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile p {
     font-size: 30px;
 }
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile p.raiting {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    color: #a8a8a8;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile {
+    display: flex;
+    align-items: center;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile span {
+    font-size: 30px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile a p {
+    font-size: 14px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    color: #5fa959;
+    text-decoration: underline;
+    padding-left: 10px;
+}
+
 
 .main-box .bookmaker-box .bookmaker_table_offer_buttons .leave-feedback {
     border: 2px solid #5fa959;
@@ -394,25 +432,32 @@ h2 {
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_logo {
-    padding: 8px 0px;
-}
-
-.main-box .bookmaker-box .bookmaker_table_offer_logo img {
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_mark {
     padding: 8px 0;
 }
 
+.main-box .bookmaker-box .bookmaker_table_offer_mark_mobile {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+
 .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile img, .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile p {
-    position: relative;
-    left: 40px;
     font-size: 18px;
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_buttons {
+    padding: 3px 0 3px 27%;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_buttons.leave-feedback-button {
+    display: flex;
+    justify-content: center;
     padding: 3px 0;
 }
 
@@ -444,12 +489,12 @@ h2 {
     height: auto;
 }
 
-.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules .sale-rules-header p{
+.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules .sale-rules-header p {
     color: #5FA959;
     font-size: 18px;
 }
 
-.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules .sale-rules-header{
+.main-box .bet-guide-article .bet-guide-article-box .bet-guide-article-box-content .bet-guide-article-box-content-text .sale-rules .sale-rules-header {
     font-family: Gilroy;
     font-weight: 600;
     font-style: normal;
@@ -650,7 +695,7 @@ h2 {
     padding: 20px;
 }
 
-.contacts h3, .bonus-banner-box-title h2{
+.contacts h3, .bonus-banner-box-title h2 {
     font-family: Gilroy;
     font-weight: 600;
     font-style: normal;
@@ -677,7 +722,7 @@ h2 {
 }
 
 .contacts .contact-table tr td {
-    padding:0 16px;
+    padding: 0 16px;
     width: 42%;
 }
 
@@ -824,7 +869,6 @@ h2 {
 .feedback-box-content-item-plus .feedback-box-content-item-plus-header h4 {
     color: #5FA859;
 }
-
 
 .feedback-box-content-item-minus .feedback-box-content-item-minus-header h4 {
     color: #FF0534;
@@ -981,11 +1025,9 @@ h2 {
     margin-bottom: 15px;
 }
 
-
-.reg-winline-bonus-content ol li p{
+.reg-winline-bonus-content ol li p {
     margin: 0 15px;
 }
-
 
 .reg-winline-bonus-content ol li:before {
     content: counter(my-counter);
@@ -1018,8 +1060,7 @@ h2 {
     align-items: center;
 }
 
-
-.article-mobile-page .get-bonus .get-bonus-icon img{
+.article-mobile-page .get-bonus .get-bonus-icon img {
     width: 54px;
     height: 54px;
 }
@@ -1047,7 +1088,6 @@ h2 {
     padding: 0 20px;
 }
 
-
 .winline-guide-box-main {
     background-color: #fff;
     padding: 20px 0;
@@ -1066,7 +1106,6 @@ h2 {
     text-decoration: underline;
     padding: 10px 15px;
 }
-
 
 .winline-guide-box-main .winline-guide .winline-guide-content ul li a {
     color: #5FA959;
@@ -1141,7 +1180,6 @@ h2 {
         padding: 10px 30px;
     }
 
-
 }
 
 @media screen and (max-width: 991px) {
@@ -1184,10 +1222,42 @@ h2 {
 
     .main-box .bookmaker-box .bookmaker_table_offer_logo {
         padding-bottom: 0;
+        border-bottom: 1px solid #D7D7D7;
     }
 
     .main-box .bookmaker-box .bookmaker_table_offer_logo .logo-img {
-        width: 119px !important;
+        width: 150px !important;
+        padding-bottom: 20px;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile {
+        border-right: 1px solid #D7D7D7;
+        padding: 10px 15px;
+
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile {
+
+        display: block;
+        align-items: normal;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile span {
+        font-size: 24px;
+        font-family: Gilroy;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile a p {
+        font-size: 14px;
+        font-family: Gilroy;
+        font-weight: 500;
+        font-style: normal;
+        color: #5fa959;
+        text-decoration: none;
     }
 
     .pluses-wrap, .minuses-wrap {
@@ -1258,7 +1328,6 @@ h2 {
         padding: 0 20px;
     }
 
-
     .article-mobile-page .get-bonus .get-bonus-icon p {
         margin: 0;
         padding: 10px 0;
@@ -1270,19 +1339,33 @@ h2 {
         padding: 10px 0;
     }
 
-    .article-mobile-page .get-bonus .get-bonus-btn a{
+    .article-mobile-page .get-bonus .get-bonus-btn a {
         width: 85%;
     }
 
-    .article-mobile-page .get-bonus .get-bonus-btn a button{
+    .article-mobile-page .get-bonus .get-bonus-btn a button {
         width: 100%;
     }
 
-  .social-comments {
+    .social-comments {
         justify-content: center;
     }
 
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile p {
+        font-size: 24px;
     }
+
+    .main-box .bookmaker-box .row-mobile-page {
+        display: block;
+        align-items: normal;
+    }
+
+    .main-box .bookmaker-box.bookmaker-box-mobile-page {
+        padding-bottom: 0;
+    }
+
+
+}
 
 @media screen and (min-width: 768px) {
     .download-applications .d-app {
@@ -1307,6 +1390,14 @@ h2 {
 
     .bookmaker-box-bonus-page .bookmaker-box-content-bonus-page .bookmaker_table_offer_mark p {
         padding: 0 2px;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_logo {
+        padding: 8px 30px;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_buttons {
+        padding: 3px 0 3px 23%;
     }
 
 }
