@@ -451,7 +451,7 @@ h2 {
     font-size: 18px;
 }
 
-.main-box .bookmaker-box .bookmaker_table_offer_buttons {
+.main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
     padding: 3px 0 3px 27%;
 }
 
@@ -1119,7 +1119,7 @@ h2 {
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo img {
-        width: 80%;
+        width: 90%;
         padding: 0;
     }
 
@@ -1220,7 +1220,20 @@ h2 {
         padding-top: 15px;
     }
 
-    .main-box .bookmaker-box .bookmaker_table_offer_logo {
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
+        padding: 8px 29px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_logo {
+        width: 120px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_logo {
+        padding-bottom: 0;
+        border-bottom: 1px solid #D7D7D7;
+    }
+
+    .main-box .bookmaker-box-mobile-page .bookmaker_table_offer_logo {
         padding-bottom: 0;
         border-bottom: 1px solid #D7D7D7;
     }
@@ -1233,7 +1246,6 @@ h2 {
     .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile {
         border-right: 1px solid #D7D7D7;
         padding: 10px 15px;
-
     }
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile {
@@ -1257,8 +1269,8 @@ h2 {
         font-weight: 500;
         font-style: normal;
         color: #5fa959;
-        text-decoration: none;
     }
+
 
     .pluses-wrap, .minuses-wrap {
         padding: 20px 20px 0 20px;
@@ -1289,6 +1301,12 @@ h2 {
     .bonus-banner-box .bonus-banner-wrap .bonus-banner {
         padding: 20px;
     }
+
+    .best-bonus-box .best-bonus-box-content .best-bonus-box-content-logo a img {
+        width: initial;
+    }
+
+
 
     .feedback .feedback-box .feedback-box-header {
         justify-content: space-between;
@@ -1392,11 +1410,11 @@ h2 {
         padding: 0 2px;
     }
 
-    .main-box .bookmaker-box .bookmaker_table_offer_logo {
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_logo {
         padding: 8px 30px;
     }
 
-    .main-box .bookmaker-box .bookmaker_table_offer_buttons {
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
         padding: 3px 0 3px 23%;
     }
 
