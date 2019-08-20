@@ -17,6 +17,7 @@
             integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
             crossorigin="anonymous"></script>
     <script src="js/search.js"></script>
+    <script src="js/rater.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -92,8 +93,11 @@
                                         </div>
                                         <div class="bookmaker_table_offer_mark_mobile col-xs-6 col-sm-3 col-md-3 col-lg-3">
                                             <div>
-                                                <p>5/5</p>
-                                                <img src="icons/star.png" alt="star">
+                                                <span>9.4</span>
+                                                <div class="rater star-rating disabled hidden-xs" style="width: 160px; height: 16px; background-size: 16px;" title="0/10">
+                                                    <!--<div class="star-value" style="background-size: 16px; width: 0px;"></div>-->
+                                                </div>
+                                                <img src="icons/star.png" class="hidden-sm hidden-md hidden-lg" alt="star">
                                             </div>
                                             <p class="raiting hidden-sm hidden-md hidden-lg">Рейтинг</p>
                                         </div>
@@ -597,6 +601,19 @@
     </footer>
 </div>
 
+<script type="text/javascript">
+
+    //rater start
+
+    raterJs( {
+        max:10,
+        readOnly:true,
+        element:document.querySelector(".rater")
+    });
+
+    //rater end
+
+</script>
 
 </body>
 </html>

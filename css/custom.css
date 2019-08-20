@@ -353,7 +353,7 @@ h2 {
 }
 
 .main-box .bookmaker-box.bookmaker-box-mobile-page {
-    padding: 20px 14px;
+    padding: 30px 14px;
 }
 
 .main-box .bookmaker-box .row-mobile-page {
@@ -369,10 +369,16 @@ h2 {
     display: block;
 }
 
+
+.main-box .bookmaker-box .bookmaker-box-content_mobile div.row {
+    display: flex;
+    align-items: center;
+}
+
+
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile div {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile img {
@@ -393,6 +399,7 @@ h2 {
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile {
     display: flex;
     align-items: center;
+    padding-left: 0;
 }
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile span {
@@ -442,8 +449,13 @@ h2 {
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile {
-    padding-right: 20px;
+    padding-right: 0;
     padding-left: 0;
+    width: 38%;
+}
+
+.main-box .bookmaker-box .bookmaker_table_offer_mark_mobile span {
+    font-size: 30px;
 }
 
 
@@ -452,7 +464,7 @@ h2 {
 }
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
-    padding: 3px 0 3px 27%;
+    padding: 3px 0 3px 16%;
 }
 
 .main-box .bookmaker-box .bookmaker_table_offer_buttons.leave-feedback-button {
@@ -1229,7 +1241,7 @@ h2 {
     }
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_logo {
-        padding-bottom: 0;
+        padding-bottom: 18px;
         border-bottom: 1px solid #D7D7D7;
     }
 
@@ -1246,6 +1258,20 @@ h2 {
     .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile {
         border-right: 1px solid #D7D7D7;
         padding: 10px 15px;
+        width: 50%;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile div {
+        justify-content: center;
+    }
+
+    .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile span {
+        font-size: 24px;
+    }
+
+    .main-box .bookmaker-box .bookmaker-box-content_mobile div.row {
+        display: block;
+        align-items: normal;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_review_mobile {
@@ -1411,11 +1437,11 @@ h2 {
     }
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_logo {
-        padding: 8px 30px;
+        padding: 8px 0;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
-        padding: 3px 0 3px 23%;
+        padding: 3px 0 3px 13%;
     }
 
 }
