@@ -703,10 +703,12 @@ footer .container-fluid {
     padding: 14px 0;
 }
 
-.footer-box .social-icon {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.footer-box .social-icon a:not(:first-of-type) {
+    padding: 0 10px;
+}
+
+.footer-box .social-icon a:first-of-type {
+    padding-right: 10px;
 }
 
 .footer-box .copyright {
@@ -714,6 +716,7 @@ footer .container-fluid {
     color: #A8A9A8;
     font-weight: normal;
     font-style: normal;
+    width: 125%;
 }
 
 /*END FOOTER*/
@@ -977,16 +980,22 @@ footer .container-fluid {
     .slider .review-card .review-card-content-writer .rev-writer {
         border-right: 0 !important;
     }
+
+    footer .footer-box .social-icon a {
+        padding: -1px 15px !important;
+    }
+
+    footer .footer-box .copyright {
+        width: 100%;
+        display: block !important;
+        text-align: center !important;
+    }
 }
 
 @media screen and (min-width: 468px) and (max-width: 767px) {
     .footer-box div {
-        display: flex;
-        justify-content: center;
-    }
-
-    .footer-box .social-icon {
-        justify-content: space-around;
+        display: block;
+        text-align: center;
     }
 }
 
@@ -996,11 +1005,15 @@ footer .container-fluid {
         justify-content: center;
     }
 
+    .footer-box .social-icon {
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .footer-box .social-icon {
-        width: 120%;
+        width: 127%;
     }
 
     .main-box .bookmaker-box .bookmaker-box-content .bookmaker_table_offer_bonus {
@@ -1046,10 +1059,6 @@ footer .container-fluid {
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .bet-guide-content .col-sm-6 {
         width: 46%;
-    }
-
-    .footer-box .social-icon {
-        width: 80%;
     }
 
     .navbar .navbar-right {

@@ -77,19 +77,7 @@
                 var onLeave = options.onLeave;
                 var rating = null;
                 var myRating;
-                elem.classList.add("star-rating");
-                var div = document.createElement("div");
-                div.classList.add("star-value");
 
-                if (reverse) {
-                    div.classList.add("rtl");
-                }
-
-                div.style.backgroundSize = starSize + "px";
-                elem.appendChild(div);
-                elem.style.width = starSize * stars + "px";
-                elem.style.height = starSize + "px";
-                elem.style.backgroundSize = starSize + "px";
                 var callback = options.rateCallback;
                 var disabled = !!options.readOnly;
                 var disableText;
@@ -181,7 +169,7 @@
                                     break;
                                 }
                             }
-                        } 
+                        }
 
 
                         if (currentRating > stars) {
