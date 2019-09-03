@@ -666,6 +666,158 @@ a:hover, a:focus, a:active {
 
 /*END SIDEBAR*/
 
+/*START SLIDER*/
+
+.slider {
+    width: 100%;
+    margin: 70px auto !important;
+}
+
+
+.slider-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 880px;
+}
+
+.slider-title h2 {
+    padding-left: 10px;
+}
+
+.slider-title p {
+    color: #5FA959;
+}
+
+.slider-title p span {
+    color: #a7a5a3;
+}
+
+
+.rev-writer-info-date {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    color: #a7a5a3;
+    font-size: 14px;
+}
+
+.rev-writer-info-name {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.rev-mark {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.rev-mark p {
+    padding: 0 10px;
+}
+
+.review-card-content-comment {
+    font-family: Gilroy;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+.slider .review-card {
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+
+}
+
+.slider .review-card  img {
+    width: auto;
+}
+
+.slider .review-card hr {
+    margin-bottom: 0;
+}
+
+.slider .review-card .review-card-content, .slider .review-card .review-card-content-writer,  .slider .review-card .review-card-content-writer .rev-writer {
+    display: flex;
+}
+
+.slider .review-card .review-card-content-writer {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid #c5c5c5;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer .rev-writer-ava img {
+    width: 57px;
+    height: 57px;
+}
+
+.slider .review-card .review-card-content-writer .rev-writer .rev-writer-info  {
+    padding: 0 10px;
+}
+
+.slider .review-card .review-card-content-writer .rev-logo {
+    display: flex;
+    justify-content: center;
+    padding-right: 13px;
+}
+
+.slider .review-card .review-card-content-raiting .rev-mark {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.slider .review-card .review-card-content-more {
+    text-align: center;
+    padding-top: 20px ;
+    color: #5fa959;
+}
+
+.slider-mobile .review-card .rev-raiting-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider-mobile .review-card .review-card-content-writer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting {
+    width: 50%;
+}
+
+.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting .rev-mark {
+    justify-content: center;
+}
+
+.slider-mobile .review-card .rev-raiting-mobile .rev-logo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 0;
+    border-right: 1px solid #c5c5c5;
+}
+
+/*END SLIDER*/
+
 /*START FOOTER*/
 
 footer .container-fluid {
@@ -1011,6 +1163,13 @@ footer .container-fluid {
 
 }
 
+@media screen and (max-width: 574px) {
+    .slider-title h2 {
+        font-size: 6vw;
+    }
+}
+
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .footer-box .social-icon {
         width: 127%;
@@ -1023,6 +1182,10 @@ footer .container-fluid {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .slider-title {
+        width: 745px;
+    }
+
     .slider .review-card .review-card-content-writer .rev-logo img {
         width: 80%;
     }
@@ -1239,129 +1402,3 @@ footer .container-fluid {
 
 /*END MEDIA*/
 
-/*START SLIDER*/
-
-
-.rev-writer-info-date {
-    font-family: Gilroy;
-    font-weight: normal;
-    font-style: normal;
-    color: #a7a5a3;
-    font-size: 14px;
-}
-
-.rev-writer-info-name {
-    font-family: Gilroy;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-}
-
-.rev-mark {
-    font-family: Gilroy;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 24px;
-}
-
-.rev-mark p {
-    padding: 0 10px;
-}
-
-.review-card-content-comment {
-    font-family: Gilroy;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-}
-
-
-.slider .review-card {
-    background-color: #fff;
-    height: auto;
-    padding: 20px;
-
-}
-
-.slider .review-card  img {
-    width: auto;
-}
-
-.slider .review-card hr {
-    margin-bottom: 0;
-}
-
-.slider .review-card .review-card-content, .slider .review-card .review-card-content-writer,  .slider .review-card .review-card-content-writer .rev-writer {
-    display: flex;
-}
-
-.slider .review-card .review-card-content-writer {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.slider .review-card .review-card-content-writer .rev-writer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    border-right: 1px solid #c5c5c5;
-}
-
-.slider .review-card .review-card-content-writer .rev-writer .rev-writer-ava img {
-    width: 57px;
-    height: 57px;
-}
-
-.slider .review-card .review-card-content-writer .rev-writer .rev-writer-info  {
-    padding: 0 10px;
-}
-
-.slider .review-card .review-card-content-writer .rev-logo {
-    display: flex;
-    justify-content: center;
-    padding-right: 13px;
-}
-
-.slider .review-card .review-card-content-raiting .rev-mark {
-    display: flex;
-    align-items: center;
-    padding: 15px 0;
-}
-
-.slider .review-card .review-card-content-more {
-    text-align: center;
-    padding-top: 20px ;
-    color: #5fa959;
-}
-
-.slider-mobile .review-card .rev-raiting-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.slider-mobile .review-card .review-card-content-writer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting {
-    width: 50%;
-}
-
-.slider-mobile .review-card .rev-raiting-mobile .review-card-content-raiting .rev-mark {
-    justify-content: center;
-}
-
-.slider-mobile .review-card .rev-raiting-mobile .rev-logo {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-    padding: 10px 0;
-    border-right: 1px solid #c5c5c5;
-}
-
-
-/*END SLIDER*/
