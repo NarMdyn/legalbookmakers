@@ -37,7 +37,7 @@ h2 {
 
 .main-box .bookmaker-box-top-bonus {
     margin: 0;
-    padding: 24px;
+    padding: 20px;
 }
 
 .main-box .bookmaker-box-top-bonus .bookmaker-box-content p {
@@ -346,7 +346,6 @@ h2 {
 /*}*/
 
 .main-box .bookmaker-box {
-    padding-top: 26px;
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -369,12 +368,10 @@ h2 {
     display: block;
 }
 
-
 .main-box .bookmaker-box .bookmaker-box-content_mobile div.row {
     display: flex;
     align-items: center;
 }
-
 
 .main-box .bookmaker-box .bookmaker-box-content_mobile .bookmaker_table_offer_mark_mobile div {
     display: flex;
@@ -419,7 +416,6 @@ h2 {
     padding-left: 10px;
 }
 
-
 .main-box .bookmaker-box .bookmaker_table_offer_buttons .leave-feedback {
     border: 2px solid #5fa959;
     border-radius: 50px;
@@ -457,7 +453,6 @@ h2 {
 .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile span {
     font-size: 30px;
 }
-
 
 .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile img, .main-box .bookmaker-box .bookmaker_table_offer_mark_mobile p {
     font-size: 18px;
@@ -1123,6 +1118,175 @@ h2 {
     color: #5FA959;
 }
 
+.select-bonus .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-bonus select {
+    display: block;
+    font-size: 15px;
+    color: #a8a8a8;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #E4E4E4;
+    border-radius: 4px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #fff url('../icons/select-bar-down-icon.png') no-repeat right 20px top 50%;
+    background-size: .65em auto, 100%;
+}
+
+.select-bonus select:first-child {
+    margin: 15px 15px 15px 0;
+}
+
+.select-bonus select:last-child {
+    margin: 15px 0 15px 15px;
+}
+
+.select-bonus select::-ms-expand {
+    display: none;
+}
+
+.select-bonus select:hover {
+    border-color: #5FA959;
+
+}
+
+.select-bonus select:focus {
+    border-color: #5FA959;
+    color: #222;
+    outline: none;
+}
+
+.select-bonus select option {
+    font-weight: normal;
+}
+
+.bonus-for-reg {
+    padding-top: 20px;
+}
+
+.bonus-for-reg-content {
+    border: 1px solid #e4e4e4;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+}
+
+.bonus-for-reg .row {
+    display: flex;
+    align-items: center;
+}
+
+.bonus-for-reg h4 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.bonus-for-reg p {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bonus-for-reg .bonus-for-reg-top-text p {
+    color: #a8a8a8;
+}
+
+.bonus-for-reg .dot {
+    height: 7px;
+    width: 7px;
+    background-color: #5FA959;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 15px 0 20px;
+}
+
+.bonus-for-reg .bonus-for-reg-image {
+    padding: 0;
+}
+
+.bonus-for-reg .bonus-for-reg-image img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bonus-for-reg .bonus-for-reg-content-top {
+    display: flex;
+    align-items: center;
+}
+
+.bonus-for-reg .bonus-for-reg-content-top .bonus-for-reg-top-text {
+    display: flex;
+    align-items: center;
+}
+
+.bonus-for-reg-content-buttons {
+    padding-left: 0;
+}
+
+.bonus-for-reg-content-buttons a {
+    padding: 10px 12px;
+    width: 100%;
+}
+
+.show-more-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.show-more-btn a, .show-more-btn a:hover, .show-more-btn a:active, .show-more-btn a:focus {
+    border-color: #5FA959;
+    color: #5FA959;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+
+.show-more-btn a img {
+    padding-right: 15px;
+}
+
+.main-box .all-bet-link-bonus a {
+    font-size: 15px;
+}
+
+.panel-group .panel {
+    background-color: #fff;
+    border-bottom: 2px solid #f5f5f5;
+    border-radius: 0px;
+}
+
+.panel-group .panel:hover, .panel-group .panel:focus, .panel-group .panel:active {
+    border-bottom: 2px solid #5FA959;
+    color: #5FA959 !important;
+}
+
+.panel-group .panel+.panel {
+    margin: 0;
+}
+
+.panel-heading  {
+    padding: 15px;
+
+}
+
+.panel-group>.panel-drop>.panel-heading .panel-title:after {
+    content: url(../icons/select-bar-down-icon.png);
+    position: relative;
+    right: -170px;
+}
+.panel-body {
+    padding: 0;
+}
+
+
 /*START MEDIA*/
 
 @media screen and (min-width: 320px) and (max-width: 410px) {
@@ -1149,13 +1313,6 @@ h2 {
         left: 25px;
     }
 
-}
-
-@media screen and (min-width: 1200px) {
-    .main-box .bookmaker-box-top-bonus {
-        margin: 0;
-        padding: 24px 0;
-    }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -1192,6 +1349,10 @@ h2 {
         padding: 10px 30px;
     }
 
+    .bonus-for-reg-content {
+        padding: 23px 15px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1213,6 +1374,10 @@ h2 {
 
     .bonus-banner-box .bonus-banner-wrap {
         border: 0px;
+    }
+
+    .bonus-for-reg .bonus-for-reg-content .row {
+        display: block;
     }
 
 }
@@ -1297,7 +1462,6 @@ h2 {
         color: #5fa959;
     }
 
-
     .pluses-wrap, .minuses-wrap {
         padding: 20px 20px 0 20px;
     }
@@ -1331,8 +1495,6 @@ h2 {
     .best-bonus-box .best-bonus-box-content .best-bonus-box-content-logo a img {
         width: initial;
     }
-
-
 
     .feedback .feedback-box .feedback-box-header {
         justify-content: space-between;
@@ -1408,12 +1570,84 @@ h2 {
         padding-bottom: 0;
     }
 
+    .select-bonus .row {
+        display: block;
+    }
+
+    .select-bonus select {
+        margin: 15px 0;
+    }
+
+    .select-bonus select:last-child {
+        margin: 15px 0;
+    }
+
+    .bonus-for-reg .row {
+        display: block;
+    }
+
+    .bonus-for-reg-content .bonus-for-reg-content-buttons {
+        padding: 10px 20px 20px 20px;
+    }
+
+    .bonus-for-reg-content .bonus-for-reg-content-buttons div{
+        padding: 0;
+    }
+
+    .bonus-for-reg .bonus-for-reg-content-top {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .bonus-for-reg .dot {
+        margin-left: 0;
+    }
+
+    .bonus-for-reg .bonus-for-reg-content-top .bonus-for-reg-top-text {
+        padding-top: 15px;
+    }
+
+    .bonus-for-reg-content {
+        border-top: unset;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .bonus-for-reg .bonus-for-reg-image img {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .show-more-btn {
+        padding-bottom: 10px;
+    }
 
 }
 
 @media screen and (min-width: 768px) {
     .download-applications .d-app {
         border-radius: 0;
+    }
+
+    .bonus-for-reg-content {
+        border-left: unset;
+    }
+}
+
+@media screen and (min-width: 991px) {
+
+    .bonus-for-reg-content .bonus-for-reg-content-buttons div {
+        padding: 0;
+    }
+
+    .bonus-for-reg-content .bonus-for-reg-content-buttons div:first-child a {
+        margin: 19px 0 10px 0;
+    }
+
+    .bonus-for-reg-content .bonus-for-reg-content-buttons div:last-child a {
+        margin: 10px 0 19px 0;
     }
 
 }
@@ -1442,6 +1676,18 @@ h2 {
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
         padding: 3px 0 3px 13%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .main-box .bookmaker-box-top-bonus {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .bonus-for-reg-content {
+        padding: 5px 15px;
     }
 
 }

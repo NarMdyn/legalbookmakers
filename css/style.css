@@ -298,6 +298,28 @@ a:hover, a:focus, a:active {
     font-weight: bold;
 }
 
+.dark-pink-btn {
+    background-color: #e00d36;
+    color: white;
+    border-color: #e00d36;
+
+}
+
+.dark-pink-btn:hover, .dark-pink-btn:active, .dark-pink-btn:focus {
+    background-color: transparent !important;
+    color: #e00d36 !important;
+    font-weight: bold;
+    border-color: #e00d36 !important;
+}
+
+.pink-border-btn {
+    border-color: #e00d36 !important;
+}
+
+.pink-border-btn:hover, .pink-border-btn:active, .pink-border-btn:focus {
+    border-color: #e00d36 !important;
+}
+
 .guide-button {
     border-color: #69b366;
 }
@@ -428,7 +450,6 @@ a:hover, a:focus, a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 25px;
     margin-bottom: 12px;
 }
 
