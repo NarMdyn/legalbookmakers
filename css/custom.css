@@ -1257,14 +1257,47 @@ h2 {
     font-size: 15px;
 }
 
-.panel-group .panel {
-    background-color: #fff;
-    border-bottom: 2px solid #f5f5f5;
-    border-radius: 0px;
+.panel-group {
+    margin: 0;
+    border-right: 1px solid #ececec;
+    border-left: 1px solid #ececec;
 }
 
-.panel-group .panel:hover, .panel-group .panel:focus, .panel-group .panel:active {
-    border-bottom: 2px solid #5FA959;
+.panel-active {
+    border-bottom-color:#5FA959 !important;
+    color: #5FA959 !important;
+}
+
+.panel-group .panel {
+    border: 0;
+    border-radius: 0 ;
+}
+
+.panel-group .panel-heading {
+    padding: 0 20px;
+}
+
+.panel-group .panel-title {
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 0px;
+
+}
+
+.panel-group .panel .panel-title{
+    border-bottom: 2px solid #f5f5f5;
+}
+
+
+.panel-group .panel .panel-title:hover,
+.panel-group .panel .panel-title:focus,
+.panel-group .panel .panel-title:active,
+#mobileThree .panel-group .panel .panel-title:hover,
+#mobileThree .panel-group .panel .panel-title:focus,
+#mobileThree .panel-group .panel .panel-title:active {
+    border-bottom-color:#5FA959;
     color: #5FA959 !important;
 }
 
@@ -1280,12 +1313,24 @@ h2 {
 .panel-group>.panel-drop>.panel-heading .panel-title:after {
     content: url(../icons/select-bar-down-icon.png);
     position: relative;
-    right: -170px;
+    right: -155px;
 }
+
 .panel-body {
     padding: 0;
 }
 
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+
+#mobileThree .panel-group .panel, #mobileThree .panel-group .panel .panel-title {
+    background-color: rgb(245, 245, 245);
+}
+
+#mobileThree .panel-group .panel .panel-title {
+    border-bottom: 2px solid #ddd;
+}
 
 /*START MEDIA*/
 
@@ -1350,7 +1395,7 @@ h2 {
     }
 
     .bonus-for-reg-content {
-        padding: 23px 15px;
+        padding: 19px 15px;
     }
 
 }
@@ -1636,7 +1681,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
 
     .bonus-for-reg-content .bonus-for-reg-content-buttons div {
         padding: 0;
@@ -1650,9 +1695,11 @@ h2 {
         margin: 10px 0 19px 0;
     }
 
+
+
 }
 
-@media screen and (min-width: 991px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     .bookmaker-box-bonus-page .bookmaker-box-content-bonus-page {
         padding: 14px 10px;
     }
@@ -1676,6 +1723,14 @@ h2 {
 
     .main-box .bookmaker-box .bookmaker-box-content_mobile .leave-feedback-button-bonus {
         padding: 3px 0 3px 13%;
+    }
+
+    .panel-group>.panel-drop>.panel-heading .panel-title:after {
+        right: -90px;
+    }
+
+    .bonus-for-reg-image.col-md-3 {
+        width: 29%;
     }
 
 }
