@@ -1197,7 +1197,7 @@ h2 {
     color: #a8a8a8;
 }
 
-.bonus-for-reg .dot {
+.dot {
     height: 7px;
     width: 7px;
     background-color: #5FA959;
@@ -1232,8 +1232,62 @@ h2 {
 }
 
 .bonus-for-reg-content-buttons a {
-    padding: 10px 12px;
+    padding: 10px 9px;
     width: 100%;
+}
+
+.bonus-for-reg-v-2 {
+    position: relative;
+    padding: 20px;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.bonus-for-reg-v-2-body h5 {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.bonus-for-reg-v-2-body p {
+    font-size: 14px;
+    color: white;
+}
+
+.bonus-for-reg-v-2-footer, .bonus-for-reg-v-2-body {
+    padding-top: 20px;
+}
+
+.bonus-for-reg-v-2-footer .left-button {
+    padding-left: 0;
+    padding-right: 26px;
+}
+
+.bonus-for-reg-v-2-footer .buttons-left a {
+    width: 100%;
+}
+
+.bonus-for-reg-v-2-footer .buttons-left {
+    display: flex;
+}
+
+.bonus-for-reg-v-2-footer .right-button a {
+    background-color: transparent;
+    color: white;
+}
+
+.bonus-for-reg-v-2-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bonus-for-reg-v-2-header .bonus-for-reg-top-text {
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
 .show-more-btn {
@@ -1264,13 +1318,13 @@ h2 {
 }
 
 .panel-active {
-    border-bottom-color:#5FA959 !important;
+    border-bottom-color: #5FA959 !important;
     color: #5FA959 !important;
 }
 
 .panel-group .panel {
     border: 0;
-    border-radius: 0 ;
+    border-radius: 0;
 }
 
 .panel-group .panel-heading {
@@ -1286,10 +1340,9 @@ h2 {
 
 }
 
-.panel-group .panel .panel-title{
+.panel-group .panel .panel-title {
     border-bottom: 2px solid #f5f5f5;
 }
-
 
 .panel-group .panel .panel-title:hover,
 .panel-group .panel .panel-title:focus,
@@ -1297,20 +1350,20 @@ h2 {
 #mobileThree .panel-group .panel .panel-title:hover,
 #mobileThree .panel-group .panel .panel-title:focus,
 #mobileThree .panel-group .panel .panel-title:active {
-    border-bottom-color:#5FA959;
+    border-bottom-color: #5FA959;
     color: #5FA959 !important;
 }
 
-.panel-group .panel+.panel {
+.panel-group .panel + .panel {
     margin: 0;
 }
 
-.panel-heading  {
+.panel-heading {
     padding: 15px;
 
 }
 
-.panel-group>.panel-drop>.panel-heading .panel-title:after {
+.panel-group > .panel-drop > .panel-heading .panel-title:after {
     content: url(../icons/select-bar-down-icon.png);
     position: relative;
     right: -155px;
@@ -1320,7 +1373,7 @@ h2 {
     padding: 0;
 }
 
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
     border-top: 0;
 }
 
@@ -1635,7 +1688,7 @@ h2 {
         padding: 10px 20px 20px 20px;
     }
 
-    .bonus-for-reg-content .bonus-for-reg-content-buttons div{
+    .bonus-for-reg-content .bonus-for-reg-content-buttons div {
         padding: 0;
     }
 
@@ -1671,6 +1724,29 @@ h2 {
 
 }
 
+@media screen and (max-width: 768px) {
+    .bonus-for-reg-v-2-footer .left-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .bonus-for-reg-v-2-header {
+        display: block;
+    }
+
+    .bonus-for-reg-v-2-header .bonus-for-reg-top-text {
+        padding-top: 10px;
+    }
+
+    .bonus-for-reg-v-2-body {
+        padding: 0;
+    }
+
+    .bonus-for-reg-v-2-footer .left-button {
+        padding: 0;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .download-applications .d-app {
         border-radius: 0;
@@ -1694,8 +1770,6 @@ h2 {
     .bonus-for-reg-content .bonus-for-reg-content-buttons div:last-child a {
         margin: 10px 0 19px 0;
     }
-
-
 
 }
 
@@ -1725,7 +1799,7 @@ h2 {
         padding: 3px 0 3px 13%;
     }
 
-    .panel-group>.panel-drop>.panel-heading .panel-title:after {
+    .panel-group > .panel-drop > .panel-heading .panel-title:after {
         right: -90px;
     }
 

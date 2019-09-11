@@ -312,9 +312,6 @@ a:hover, a:focus, a:active {
     border-color: #e00d36 !important;
 }
 
-.pink-border-btn {
-    border-color: #e00d36 !important;
-}
 
 .pink-border-btn:hover, .pink-border-btn:active, .pink-border-btn:focus {
     border-color: #e00d36 !important;
