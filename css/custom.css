@@ -1385,6 +1385,92 @@ h2 {
     border-bottom: 2px solid #ddd;
 }
 
+.bonus-page-bookmaker-banner .row {
+    padding: 50px 10px;
+}
+
+.bonus-page-bookmaker-banner-right-button {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bonus-page-bookmaker-banner-right-button-gift {
+    width: 40px;
+}
+
+.bonus-page-bookmaker-banner-title h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.bonus-page-bookmaker-banner-title p {
+    font-size: 14px;
+    color: white;
+}
+
+.bookmaker-page-bookmaker-banner img {
+    width: inherit;
+}
+
+
+
+.green {
+    color: #5FA959;
+}
+
+.bookmaker-page-bookmaker-banner .row {
+    padding: 15px 10px;
+}
+
+.bookmaker-page-bookmaker-banner-right-button-gift {
+    width: 40px !important;
+}
+
+
+.bookmaker-page-bookmaker-banner-right-button {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookmaker-page-bookmaker-banner-right-button-gift {
+    width: 40px;
+}
+
+.bookmaker-page-bookmaker-banner-title h5 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.bookmaker-page-bookmaker-banner-title img {
+    margin-right: 15px;
+}
+.bookmaker-page-bookmaker-banner-title a {
+    color: white;
+    text-decoration: underline;
+}
+.bookmaker-page-bookmaker-banner-left {
+    padding: 10px;
+}
+.bookmaker-page-bookmaker-banner-title p {
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bookmaker-page-bookmaker-banner img {
+    width: inherit;
+}
+
 /*START MEDIA*/
 
 @media screen and (min-width: 320px) and (max-width: 410px) {
@@ -1411,6 +1497,16 @@ h2 {
         left: 25px;
     }
 
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    .bookmaker-page-bookmaker-banner-right-button span {
+        font-size: 14px;
+    }
+
+    .bookmaker-page-bookmaker-banner-right-button-gift {
+        width: 30px !important;
+    }
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -1451,6 +1547,13 @@ h2 {
         padding: 19px 15px;
     }
 
+    .bonus-page-bookmaker-banner .row {
+        padding: 32px 10px;
+    }
+
+    .bonus-page-bookmaker-banner-right {
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -1481,6 +1584,22 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+    .bookmaker-page-bookmaker-banner .row {
+        padding: 0 10px;
+    }
+
+    .bookmaker-page-bookmaker-banner-right {
+        padding: 0;
+    }
+    .bookmaker-page-bookmaker-banner-right-button-wrapper:first-child {
+        padding: 20px;
+    }
+    .bookmaker-page-bookmaker-banner-right-button-wrapper:last-child {
+        padding-bottom: 20px;
+        padding: 20px;
+        padding-top: 0;
+    }
+
     .main-box .bookmaker-box .bookmaker_table_offer_review span {
         display: block;
         margin: 0 auto;
@@ -1725,6 +1844,16 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+
+
+    .bonus-page-bookmaker-banner-right {
+        padding-top: 28px;
+    }
+
+    .bonus-page-bookmaker-banner .row {
+        padding: 20px 5px;
+    }
+
     .bonus-for-reg-v-2-footer .left-button {
         display: block;
         margin: 0 auto;
@@ -1754,6 +1883,11 @@ h2 {
 
     .bonus-for-reg-content {
         border-left: unset;
+    }
+
+    .bonus-page-bookmaker-banner-right-button span {
+        position: absolute;
+        left: 91px;
     }
 }
 
